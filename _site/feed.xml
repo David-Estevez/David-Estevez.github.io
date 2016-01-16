@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Awesome Title</title>
+    <title>DEF</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>https://y7kim.github.io/agency-jekyll-theme//</link>
     <atom:link href="https://y7kim.github.io/agency-jekyll-theme//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 Jan 2016 01:40:19 +0100</pubDate>
-    <lastBuildDate>Fri, 15 Jan 2016 01:40:19 +0100</lastBuildDate>
+    <pubDate>Sat, 16 Jan 2016 02:18:37 +0100</pubDate>
+    <lastBuildDate>Sat, 16 Jan 2016 02:18:37 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
