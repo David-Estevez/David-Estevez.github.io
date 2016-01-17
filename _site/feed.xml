@@ -5,8 +5,8 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>https://y7kim.github.io/agency-jekyll-theme//</link>
     <atom:link href="https://y7kim.github.io/agency-jekyll-theme//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 16 Jan 2016 17:26:41 +0100</pubDate>
-    <lastBuildDate>Sat, 16 Jan 2016 17:26:41 +0100</lastBuildDate>
+    <pubDate>Sun, 17 Jan 2016 03:32:52 +0100</pubDate>
+    <lastBuildDate>Sun, 17 Jan 2016 03:32:52 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -42,6 +42,19 @@
         <pubDate>Fri, 18 Jul 2014 00:00:00 +0200</pubDate>
         <link>https://y7kim.github.io/agency-jekyll-theme//web%20development/2014/07/18/project-1/</link>
         <guid isPermaLink="true">https://y7kim.github.io/agency-jekyll-theme//web%20development/2014/07/18/project-1/</guid>
+        
+        
+        <category>Web Development</category>
+        
+      </item>
+    
+      <item>
+        <title>(Blog) Dreams</title>
+        <description>
+</description>
+        <pubDate>Fri, 18 Jul 2014 00:00:00 +0200</pubDate>
+        <link>https://y7kim.github.io/agency-jekyll-theme//web%20development/2014/07/18/blog-1/</link>
+        <guid isPermaLink="true">https://y7kim.github.io/agency-jekyll-theme//web%20development/2014/07/18/blog-1/</guid>
         
         
         <category>Web Development</category>
@@ -120,19 +133,6 @@
         <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
         <link>https://y7kim.github.io/agency-jekyll-theme//web%20development/2014/07/15/project-4/</link>
         <guid isPermaLink="true">https://y7kim.github.io/agency-jekyll-theme//web%20development/2014/07/15/project-4/</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>(Research) Round Icons</title>
-        <description>
-</description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
-        <link>https://y7kim.github.io/agency-jekyll-theme//web%20development/2014/07/15/research-6/</link>
-        <guid isPermaLink="true">https://y7kim.github.io/agency-jekyll-theme//web%20development/2014/07/15/research-6/</guid>
         
         
         <category>Web Development</category>
