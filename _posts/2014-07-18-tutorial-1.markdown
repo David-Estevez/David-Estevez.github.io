@@ -1,16 +1,16 @@
 ---
-title: (Tutorial) Dreams
-subtitle: Website Design
+title: PyQt / PySide
+subtitle: Creating a PySide GUI application
 layout: default
 modal-id: 1
 type: tutorial
-date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+date: 2015-10-12
+img: pysidelogo.png
+thumbnail: pysidelogo-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: November 2015
+client: none
+category: Software
+description: In this tutorial we will learn how to create a PySide/PyQt application. For that purpose, I will make a walkthrough of the creation of a graphical interface for the PCB outline creator for KiCad. The PCB outline creator is a small tool to add PCB outlines with some given dimensions (and rounded corners) to a KiCad file. It is included in the <a href="http://github.com">kicad-library repository</a>. 
 
 ---
