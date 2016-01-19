@@ -1,6 +1,6 @@
 ---
 title: Modular Robots
-subtitle: ...
+subtitle: When robots make robots.
 layout: default
 modal-id: 1
 type: research

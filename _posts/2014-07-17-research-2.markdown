@@ -1,16 +1,16 @@
 ---
-title: (Research) Escape
-subtitle: Website Design
+title: Garments
+subtitle: When robots do laundry.
 layout: default
 modal-id: 2
 type: research
-date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+date: 2016-01-17
+img: garments.png
+thumbnail: garments-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+project-date: January 2016
+client: none
+category: Computer Vision
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
