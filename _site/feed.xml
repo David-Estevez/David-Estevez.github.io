@@ -5,8 +5,8 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>https://y7kim.github.io/agency-jekyll-theme//</link>
     <atom:link href="https://y7kim.github.io/agency-jekyll-theme//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Jan 2016 01:41:21 +0100</pubDate>
-    <lastBuildDate>Tue, 19 Jan 2016 01:41:21 +0100</lastBuildDate>
+    <pubDate>Fri, 22 Jan 2016 00:30:22 +0100</pubDate>
+    <lastBuildDate>Fri, 22 Jan 2016 00:30:22 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -19,6 +19,19 @@
         
         
         <category>Computer Vision</category>
+        
+      </item>
+    
+      <item>
+        <title>ABBlind</title>
+        <description>
+</description>
+        <pubDate>Sun, 27 Dec 2015 00:00:00 +0100</pubDate>
+        <link>https://y7kim.github.io/agency-jekyll-theme//hardware/2015/12/27/project-2/</link>
+        <guid isPermaLink="true">https://y7kim.github.io/agency-jekyll-theme//hardware/2015/12/27/project-2/</guid>
+        
+        
+        <category>Hardware</category>
         
       </item>
     
@@ -55,19 +68,6 @@
         <pubDate>Fri, 18 Jul 2014 00:00:00 +0200</pubDate>
         <link>https://y7kim.github.io/agency-jekyll-theme//web%20development/2014/07/18/blog-1/</link>
         <guid isPermaLink="true">https://y7kim.github.io/agency-jekyll-theme//web%20development/2014/07/18/blog-1/</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Escape</title>
-        <description>
-</description>
-        <pubDate>Thu, 17 Jul 2014 00:00:00 +0200</pubDate>
-        <link>https://y7kim.github.io/agency-jekyll-theme//web%20development/2014/07/17/project-2/</link>
-        <guid isPermaLink="true">https://y7kim.github.io/agency-jekyll-theme//web%20development/2014/07/17/project-2/</guid>
         
         
         <category>Web Development</category>
