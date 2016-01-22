@@ -69,3 +69,10 @@ address:
 markdown: kramdown
 permalink: pretty
 
+# Collections
+collections:
+    research:
+        output: true
+    blog:
+        output: true
+
