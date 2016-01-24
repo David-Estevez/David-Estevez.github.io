@@ -71,8 +71,10 @@ permalink: pretty
 
 # Collections
 collections:
+    projects:
+        output: true
     research:
         output: true
-    blog:
+    tutorials:
         output: true
 
