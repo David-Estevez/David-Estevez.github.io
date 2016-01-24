@@ -17,5 +17,16 @@
                 <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
             </div>
         </div>
+        <div class="row">
+		    <div class="col-lg-12 text-center">
+			    <h4 class="section-subheading text-muted">Contact me:</h4>
+			    <ul class="list-inline cool-buttons">
+				    {% for network in site.social %}
+				    <li><a href="{{ network.url }}"><i class="fa-fu_adblock fa-fu_adblock-{{ network.title }}"></i></a>
+				    </li>
+				    {% endfor %}
+			    </ul>
+		    </div>
+        </div>
     </div>
 </section>
