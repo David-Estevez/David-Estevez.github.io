@@ -1,7 +1,7 @@
 ---
 title: Modular Robots
 subtitle: When robots make robots.
-layout: default
+layout: menu
 modal-id: 1
 type: research
 date: 2014-09-29

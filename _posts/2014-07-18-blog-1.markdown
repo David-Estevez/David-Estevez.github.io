@@ -1,7 +1,7 @@
 ---
 title: (Blog) Dreams
 subtitle: Website Design
-layout: not_default
+layout: menu
 modal-id: 1
 type: blog
 date: 2014-07-18

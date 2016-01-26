@@ -1,5 +1,5 @@
 url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+baseurl: /awesome-font/
 
 # Site settings
 title: DEF
@@ -79,9 +79,12 @@ permalink: pretty
 # Collections
 collections:
     projects:
+        description: (projects) Lorem ipsum dolor sit amet consectetur.
         output: true
     research:
+        description: (Research) Lorem ipsum dolor sit amet consectetur.
         output: true
     tutorials:
+        description: (tutorials) Lorem ipsum dolor sit amet consectetur.
         output: true
 

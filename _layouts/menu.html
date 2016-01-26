@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+    <body id="page-top" class="index">
+
+    {% include header.html %}
+
+    This is a menu for collection {{page.collection}}
+    {% for collection in site.collections %}
+        <ul> {{collection.label}} </ul>
+    {%endfor%}
+
+    {% for collection in site.collections %}
+        {% if collection.label == page.collection %}        
+            {% include menu_grid.html current_collection=collection %}
+        {% endif %}
+    {% endfor %}
+    {% include footer.html %}
+    </body>
+</html>
