@@ -1,7 +1,7 @@
 ---
 title: Garments
 subtitle: When robots do laundry.
-layout: default
+layout: menu
 modal-id: 2
 type: research
 date: 2016-01-17

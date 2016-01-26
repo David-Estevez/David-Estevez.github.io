@@ -9,7 +9,7 @@
             </div>
             <div class="row">
             {% for post in site.research %}
-                {% if post.type == "research" %}
+                {% if post.layout == "menu" %}
                     <div class="col-md-4 col-sm-6 research-item">
                         <a href="#researchModal{{ post.modal-id }}" class="research-link" data-toggle="modal">
                             <div class="research-hover">

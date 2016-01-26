@@ -1,18 +1,15 @@
 ---
-title: REPY-2.0
-subtitle: A module for modular robots
-layout: post
+title: Modular Robots
+subtitle: When robots make robots.
+layout: menu
 modal-id: 1
 type: research
-date: 2014-09-29
 img: modularrobots.png
 thumbnail: modularrobots-thumbnail.png
 alt: image-alt
-project-date: September 2014
-github: http://github.com
-category: ModularRobots
+category: Research
+children-category: ModularRobots
+link: http://dummy.com
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
-
-A REPY module bla, bla, bla...

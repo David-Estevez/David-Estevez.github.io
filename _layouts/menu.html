@@ -8,16 +8,17 @@
 
     {% include header.html %}
 
-    This is a menu for collection {{page.collection}}
-    {% for collection in site.collections %}
-        <ul> {{collection.label}} </ul>
-    {%endfor%}
+    This is a menu for collection: {{page.collection}} - {{page.title}}
 
     {% for collection in site.collections %}
         {% if collection.label == page.collection %}        
             {% include menu_grid.html current_collection=collection %}
+            {% include footer.html %}
+            {% include menu_modals.html current_collection=collection %}
         {% endif %}
     {% endfor %}
-    {% include footer.html %}
+
+    {% include js.html %}
+
     </body>
 </html>

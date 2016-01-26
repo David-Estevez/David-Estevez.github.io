@@ -1,7 +1,7 @@
- <!-- Portfolio Modals -->
- {% for post in site.research %}
-   {% if post.layout == "menu" %}
-    <div class="research-modal modal fade" id="researchModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+ <!-- Menu Modals -->
+{% for post in include.current_collection.docs %}
+    {% if post.layout == "post" %}
+    <div class="menu-modal modal fade" id="menuModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
