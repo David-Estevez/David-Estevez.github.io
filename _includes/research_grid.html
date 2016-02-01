@@ -11,7 +11,8 @@
             {% for post in site.research %}
                 {% if post.layout == "menu" %}
                     <div class="col-md-4 col-sm-6 research-item">
-                        <a href="#researchModal{{ post.modal-id }}" class="research-link" data-toggle="modal">
+                        <!--<a href="#researchModal{{ post.modal-id }}" class="research-link" data-toggle="modal">-->
+                        <a href="{{post.url}}" class="research-link" data-toggle="modal">
                             <div class="research-hover">
                                 <div class="research-hover-content">
                                     <i class="fa fa-plus fa-3x"></i>

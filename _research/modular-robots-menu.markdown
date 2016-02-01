@@ -1,5 +1,5 @@
 ---
-title: Modular Robots
+title: Modular Robots Menu
 subtitle: When robots make robots.
 layout: menu
 modal-id: 1
