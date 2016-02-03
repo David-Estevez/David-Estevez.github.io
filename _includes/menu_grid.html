@@ -9,7 +9,7 @@
             </div>
             <div class="row">
             {% for post in include.current_collection.docs %}
-                {% if post.layout == "post" %}
+                {% if post.layout == "post" and post.category == page.children-category %}
                     <div class="col-md-4 col-sm-6 research-item">
                         <a href="#menuModal{{ post.modal-id }}" class="menu-link" data-toggle="modal">
                             <div class="menu-hover">

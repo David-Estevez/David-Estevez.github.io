@@ -9,9 +9,10 @@
             </div>
             <div class="row">
             {% for post in site.tutorials %}
-                {% if post.type == "tutorial" %}
+                {% if post.layout == "menu" %}
                     <div class="col-md-4 col-sm-6 tutorials-item">
-                        <a href="#tutorialsModal{{ post.modal-id }}" class="tutorials-link" data-toggle="modal">
+                        <!--<a href="#tutorialsModal{{ post.modal-id }}" class="tutorials-link" data-toggle="modal">-->
+                        <a href="{{post.url}}" class="tutorials-link" data-toggle="modal">
                             <div class="tutorials-hover">
                                 <div class="tutorials-hover-content">
                                     <i class="fa fa-plus fa-3x"></i>
