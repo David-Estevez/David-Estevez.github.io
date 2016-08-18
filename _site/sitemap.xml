@@ -58,10 +58,16 @@
     <loc>/about/</loc>
   </url>
   <url>
-    <loc>/projects/2014-07-18-project-1.html</loc>
+    <loc>/projects/project-1.html</loc>
   </url>
   <url>
-    <loc>/projects/2015-12-27-project-2.html</loc>
+    <loc>/projects/project-2.html</loc>
+  </url>
+  <url>
+    <loc>/projects/project-3.html</loc>
+  </url>
+  <url>
+    <loc>/projects/project-4.html</loc>
   </url>
   <url>
     <loc>/research/2014-07-17-research-2.html</loc>

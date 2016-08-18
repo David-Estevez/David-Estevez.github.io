@@ -129,7 +129,7 @@ markdown: kramdown
 # Collections
 collections:
     projects:
-        description: (projects) Lorem ipsum dolor sit amet consectetur.
+        description: Some stuff I make in my free time.
         title: Projects
         output: true
     research:

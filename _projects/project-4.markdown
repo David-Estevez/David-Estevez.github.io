@@ -12,6 +12,6 @@ project-date: Octubre 2015
 link: https://github.com/UC3Music/ABBlind
 client: none
 category: Hardware
-description: ¡Desecha tus prejuicios audiófilos! Con ABBlind podrás hacer pruebas a doble ciego para saber si realmente escuchas diferencias de calidad entre tu viejo equipo de audio y ese nuevo pepino de 1000€ que te quieren vender. ¿Merece la pena la compra? ¡Averígualo con ABBlind!
+description: ABBlind is a double-blind audio testing device that can be used to test audio equipment. With ABBlind you can compare two pieces of audio equipment to decide which one performs better. You can save money in audio equipment whose differences you are not able to perceive!
 
 ---
