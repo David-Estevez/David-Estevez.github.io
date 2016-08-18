@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-08-18T03:06:33+02:00</updated>
+<updated>2016-08-18T03:13:17+02:00</updated>
 <id>/</id>
 <author>
   <name>Your Name</name>
@@ -33,12 +33,12 @@ Site collections: {&quot;projects&quot;=&amp;gt;#&amp;lt;Jekyll::Collection @lab
 
 &lt;p&gt;Collections:&lt;/p&gt;
 
-&lt;li&gt;Label: projects#&lt;jekyll::collection:0x007f7129c64cc8&gt;
+&lt;li&gt;Label: projects#&lt;jekyll::collection:0x0055c562fe85d0&gt;
 
-&lt;li&gt;Label: research#&lt;jekyll::collection:0x007f7129c64c00&gt;
+&lt;li&gt;Label: research#&lt;jekyll::collection:0x0055c562fe84e0&gt;
 
-&lt;li&gt;Label: tutorials#&lt;jekyll::collection:0x007f7129c64b38&gt;
-&lt;/jekyll::collection:0x007f7129c64b38&gt;&lt;/li&gt;&lt;/jekyll::collection:0x007f7129c64c00&gt;&lt;/li&gt;&lt;/jekyll::collection:0x007f7129c64cc8&gt;&lt;/li&gt;
+&lt;li&gt;Label: tutorials#&lt;jekyll::collection:0x0055c562fe8418&gt;
+&lt;/jekyll::collection:0x0055c562fe8418&gt;&lt;/li&gt;&lt;/jekyll::collection:0x0055c562fe84e0&gt;&lt;/li&gt;&lt;/jekyll::collection:0x0055c562fe85d0&gt;&lt;/li&gt;
 
     &lt;p&gt;&lt;a href=&quot;/web%20development/2014/07/18/blog-1.html&quot;&gt;(Blog) Dreams&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;DEF&lt;/a&gt; on July 18, 2014.&lt;/p&gt;
   </content>
