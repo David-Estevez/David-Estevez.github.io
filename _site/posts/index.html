@@ -150,6 +150,19 @@ Reading time ~1 minute
   <div class="entry-content">
     <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.</p>
 
+<p>
+Site collections: {"projects"=&gt;#&lt;Jekyll::Collection @label=projects docs=[#&lt;Jekyll::Document _projects/2014-07-18-project-1.markdown collection=projects&gt;, #&lt;Jekyll::Document _projects/2015-12-27-project-2.markdown collection=projects&gt;]&gt;, "research"=&gt;#&lt;Jekyll::Collection @label=research docs=[#&lt;Jekyll::Document _research/2014-07-17-research-2.markdown collection=research&gt;, #&lt;Jekyll::Document _research/2014-09-29-research-1.markdown collection=research&gt;, #&lt;Jekyll::Document _research/modular-robots-menu.markdown collection=research&gt;]&gt;, "tutorials"=&gt;#&lt;Jekyll::Collection @label=tutorials docs=[#&lt;Jekyll::Document _tutorials/2014-07-18-tutorial-1.markdown collection=tutorials&gt;, #&lt;Jekyll::Document _tutorials/PyQt-Tutorial.markdown collection=tutorials&gt;]&gt;}
+</p>
+
+<p>Collections:</p>
+
+<li>Label: projects#<jekyll::collection:0x007f425e4a9aa0>
+
+<li>Label: research#<jekyll::collection:0x007f425e4a99d8>
+
+<li>Label: tutorials#<jekyll::collection:0x007f425e4a9910>
+</jekyll::collection:0x007f425e4a9910></li></jekyll::collection:0x007f425e4a99d8></li></jekyll::collection:0x007f425e4a9aa0></li>
+
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 
@@ -198,7 +211,7 @@ Reading time ~1 minute
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
         
-Reading time ~2 minutes
+Reading time ~1 minute
       </span><!-- /.entry-reading-time -->
       
     </div><!-- /.entry-meta -->
@@ -302,37 +315,7 @@ end
 
 <p>An example of a Gist embed below.</p>
 
-<noscript><pre>---
-layout: page
-title: Tag Index
-description: &quot;An archive of posts sorted by tag.&quot;
----
-
-{% capture tags %}
-  {% for tag in site.tags %}
-    {{ tag[0] | replace: &#39; &#39;, &#39;&amp;nbsp;&#39; }}
-  {% endfor %}
-{% endcapture %}
-{% assign sortedtags = tags | split: &#39; &#39; | sort %}
-
-&lt;ul class=&quot;tag-box inline&quot;&gt;
-{% for tag in sortedtags %}
-  {% for post in site.tags[tag] %}
-		&lt;li&gt;&lt;a href=&quot;#{{ tag }}&quot;&gt;{{ tag }}&lt;/a&gt;&lt;/li&gt;
-	{% endfor %}
-{% endfor %}
-&lt;/ul&gt;
-
-{% for tag in sortedtags %}
-	&lt;h2 id=&quot;{{ tag }}&quot;&gt;{{ tag }}&lt;/h2&gt;
-	&lt;ul class=&quot;post-list&quot;&gt;
-	{% for post in site.tags[tag] %}
-		&lt;li&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;span class=&quot;entry-date&quot;&gt;&lt;time datetime=&quot;{{ post.date | date_to_xmlschema }}&quot; itemprop=&quot;datePublished&quot;&gt;{{ post.date | date: &quot;%B %d, %Y&quot; }}&lt;/time&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-	{% endfor %}
-	&lt;/ul&gt;
-{% endfor %}</pre></noscript>
-<script src="https://gist.github.com/mmistakes/6589546.js"> </script>
-
+<p>true<script src="https://gist.github.com/mmistakes/6589546.js"> </script></p>
 <div class="footnotes">
   <ol>
     <li id="fn:1">

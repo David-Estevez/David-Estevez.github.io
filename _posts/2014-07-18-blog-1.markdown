@@ -16,3 +16,12 @@ description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At du
 ---
 
 Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+<p>
+Site collections: {{site.collections}}
+</p>
+
+Collections: 
+{% for collection in site.collections %}
+<li>Label: {{collection}}</li>
+{% endfor %}

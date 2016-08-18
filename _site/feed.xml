@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-02-09T00:39:38+01:00</updated>
+<updated>2016-08-18T02:08:56+02:00</updated>
 <id>/</id>
 <author>
   <name>Your Name</name>
@@ -26,6 +26,19 @@
   </author>
   <content type="html">
     &lt;p&gt;Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.&lt;/p&gt;
+
+&lt;p&gt;
+Site collections: {&quot;projects&quot;=&amp;gt;#&amp;lt;Jekyll::Collection @label=projects docs=[#&amp;lt;Jekyll::Document _projects/2014-07-18-project-1.markdown collection=projects&amp;gt;, #&amp;lt;Jekyll::Document _projects/2015-12-27-project-2.markdown collection=projects&amp;gt;]&amp;gt;, &quot;research&quot;=&amp;gt;#&amp;lt;Jekyll::Collection @label=research docs=[#&amp;lt;Jekyll::Document _research/2014-07-17-research-2.markdown collection=research&amp;gt;, #&amp;lt;Jekyll::Document _research/2014-09-29-research-1.markdown collection=research&amp;gt;, #&amp;lt;Jekyll::Document _research/modular-robots-menu.markdown collection=research&amp;gt;]&amp;gt;, &quot;tutorials&quot;=&amp;gt;#&amp;lt;Jekyll::Collection @label=tutorials docs=[#&amp;lt;Jekyll::Document _tutorials/2014-07-18-tutorial-1.markdown collection=tutorials&amp;gt;, #&amp;lt;Jekyll::Document _tutorials/PyQt-Tutorial.markdown collection=tutorials&amp;gt;]&amp;gt;}
+&lt;/p&gt;
+
+&lt;p&gt;Collections:&lt;/p&gt;
+
+&lt;li&gt;Label: projects#&lt;jekyll::collection:0x007f425e4a9aa0&gt;
+
+&lt;li&gt;Label: research#&lt;jekyll::collection:0x007f425e4a99d8&gt;
+
+&lt;li&gt;Label: tutorials#&lt;jekyll::collection:0x007f425e4a9910&gt;
+&lt;/jekyll::collection:0x007f425e4a9910&gt;&lt;/li&gt;&lt;/jekyll::collection:0x007f425e4a99d8&gt;&lt;/li&gt;&lt;/jekyll::collection:0x007f425e4a9aa0&gt;&lt;/li&gt;
 
     &lt;p&gt;&lt;a href=&quot;/web%20development/2014/07/18/blog-1.html&quot;&gt;(Blog) Dreams&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;DEF&lt;/a&gt; on July 18, 2014.&lt;/p&gt;
   </content>
@@ -168,37 +181,7 @@ end
 
 &lt;p&gt;An example of a Gist embed below.&lt;/p&gt;
 
-&lt;noscript&gt;&lt;pre&gt;---
-layout: page
-title: Tag Index
-description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
----
-
-{% capture tags %}
-  {% for tag in site.tags %}
-    {{ tag[0] | replace: &amp;#39; &amp;#39;, &amp;#39;&amp;amp;nbsp;&amp;#39; }}
-  {% endfor %}
-{% endcapture %}
-{% assign sortedtags = tags | split: &amp;#39; &amp;#39; | sort %}
-
-&amp;lt;ul class=&amp;quot;tag-box inline&amp;quot;&amp;gt;
-{% for tag in sortedtags %}
-  {% for post in site.tags[tag] %}
-		&amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#{{ tag }}&amp;quot;&amp;gt;{{ tag }}&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-	{% endfor %}
-{% endfor %}
-&amp;lt;/ul&amp;gt;
-
-{% for tag in sortedtags %}
-	&amp;lt;h2 id=&amp;quot;{{ tag }}&amp;quot;&amp;gt;{{ tag }}&amp;lt;/h2&amp;gt;
-	&amp;lt;ul class=&amp;quot;post-list&amp;quot;&amp;gt;
-	{% for post in site.tags[tag] %}
-		&amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ site.url }}{{ post.url }}&amp;quot;&amp;gt;{{ post.title }}&amp;lt;span class=&amp;quot;entry-date&amp;quot;&amp;gt;&amp;lt;time datetime=&amp;quot;{{ post.date | date_to_xmlschema }}&amp;quot; itemprop=&amp;quot;datePublished&amp;quot;&amp;gt;{{ post.date | date: &amp;quot;%B %d, %Y&amp;quot; }}&amp;lt;/time&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-	{% endfor %}
-	&amp;lt;/ul&amp;gt;
-{% endfor %}&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/mmistakes/6589546.js&quot;&gt; &lt;/script&gt;
-
+&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/mmistakes/6589546.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;

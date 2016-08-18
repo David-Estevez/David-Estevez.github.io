@@ -130,11 +130,14 @@ markdown: kramdown
 collections:
     projects:
         description: (projects) Lorem ipsum dolor sit amet consectetur.
+        title: Projects
         output: true
     research:
         description: (Research) Lorem ipsum dolor sit amet consectetur.
+        title: Research
         output: true
     tutorials:
         description: (tutorials) Lorem ipsum dolor sit amet consectetur.
+        title: Tutorials
         output: true
 

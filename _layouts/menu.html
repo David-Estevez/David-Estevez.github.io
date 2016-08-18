@@ -8,7 +8,12 @@
 
     {% include menu_header.html %}
 
+    <p>
     This is a menu for collection: {{page.collection}} - {{page.title}}
+    </p>
+    <p>
+    Site collections: {{site.collections}}
+    </p>
 
     {% for collection in site.collections %}
         {% if collection.label == page.collection %}        
