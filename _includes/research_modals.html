@@ -1,6 +1,6 @@
- <!-- Portfolio Modals -->
+ <!-- Research Modals -->
  {% for post in site.research %}
-   {% if post.layout == "menu" %}
+   {% if post.type == "research" %}
     <div class="research-modal modal fade" id="researchModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -13,9 +13,9 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
+                            <h2><a href="{{post.link}}">{{post.title}}</a></h2>
                             <hr class="star-primary">
-                            <img src="img/research/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <a href="{{post.link}}"><img src="img/research/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}"></a>
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>More info:
