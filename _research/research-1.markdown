@@ -10,6 +10,6 @@ alt: image-alt
 project-date: Ongoing (Since Jan 2016)
 category: Research
 link: https://github.com/roboticslab-uc3m/textiles
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: My current research is devoted to develop applications in which robots help humans with the laundry and other tasks related to garments and textiles. For that purpose, we are developing new garment perception and manipulation algorithms for different types of robots.
 
 ---

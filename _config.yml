@@ -133,7 +133,7 @@ collections:
         title: Projects
         output: true
     research:
-        description: (Research) Lorem ipsum dolor sit amet consectetur.
+        description: Serious stuff I do at work.
         title: Research
         output: true
     tutorials:
