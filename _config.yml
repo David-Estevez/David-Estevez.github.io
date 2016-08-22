@@ -75,8 +75,8 @@ baseurl:
 
 # Site settings
 title: DEF
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: destevez@ing.uc3m.es
+description: "This is my personal webpage, where you can find more about my research, my personal projects and some tutorials I have published. This is also the home of my blog"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -102,20 +102,20 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: youtube
-    url: https://www.youtube.com/user/uc3musice
-  - title: twitter
-    url: http://twitter.com/UC3Music
-  - title: facebook
-    url: https://www.facebook.com/UC3Music
-  - title: google-plus 
-    url: https://plus.google.com/106612607188215480971
-  - title: envelope
-    url : mailto:uc3music@gmail.com 
   - title: github
-    url: http://github.com/UC3Music
+    url: https://github.com/David-Estevez
+  - title: youtube
+    url: https://www.youtube.com/user/david11def
+  - title: google-plus 
+    url: https://plus.google.com/+davidestevezfernandez
+  - title: twitter
+    url: https://twitter.com/DEFrobotics
   - title: linkedin
-    url: https://www.linkedin.com/in/uc3music
+    url: https://linkedin.com/in/david-estevez-2aaa4595
+  - title: envelope
+    url : mailto:destevez@ing.uc3m.es
+
+
 
 # Postal address (add as many lines as necessary)
 address:
