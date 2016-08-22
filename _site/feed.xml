@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-08-18T17:30:49+02:00</updated>
+<updated>2016-08-22T14:39:11+02:00</updated>
 <id>/</id>
 <author>
   <name>Your Name</name>
@@ -28,17 +28,17 @@
     &lt;p&gt;Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.&lt;/p&gt;
 
 &lt;p&gt;
-Site collections: {&quot;projects&quot;=&amp;gt;#&amp;lt;Jekyll::Collection @label=projects docs=[#&amp;lt;Jekyll::Document _projects/project-1.markdown collection=projects&amp;gt;, #&amp;lt;Jekyll::Document _projects/project-2.markdown collection=projects&amp;gt;, #&amp;lt;Jekyll::Document _projects/project-3.markdown collection=projects&amp;gt;, #&amp;lt;Jekyll::Document _projects/project-4.markdown collection=projects&amp;gt;]&amp;gt;, &quot;research&quot;=&amp;gt;#&amp;lt;Jekyll::Collection @label=research docs=[#&amp;lt;Jekyll::Document _research/research-1.markdown collection=research&amp;gt;, #&amp;lt;Jekyll::Document _research/research-2.markdown collection=research&amp;gt;]&amp;gt;, &quot;tutorials&quot;=&amp;gt;#&amp;lt;Jekyll::Collection @label=tutorials docs=[#&amp;lt;Jekyll::Document _tutorials/2014-07-18-tutorial-1.markdown collection=tutorials&amp;gt;, #&amp;lt;Jekyll::Document _tutorials/PyQt-Tutorial.markdown collection=tutorials&amp;gt;]&amp;gt;}
+Site collections: {&quot;projects&quot;=&amp;gt;#&amp;lt;Jekyll::Collection @label=projects docs=[#&amp;lt;Jekyll::Document _projects/project-1.markdown collection=projects&amp;gt;, #&amp;lt;Jekyll::Document _projects/project-2.markdown collection=projects&amp;gt;, #&amp;lt;Jekyll::Document _projects/project-3.markdown collection=projects&amp;gt;, #&amp;lt;Jekyll::Document _projects/project-4.markdown collection=projects&amp;gt;]&amp;gt;, &quot;research&quot;=&amp;gt;#&amp;lt;Jekyll::Collection @label=research docs=[#&amp;lt;Jekyll::Document _research/research-1.markdown collection=research&amp;gt;, #&amp;lt;Jekyll::Document _research/research-2.markdown collection=research&amp;gt;]&amp;gt;, &quot;tutorials&quot;=&amp;gt;#&amp;lt;Jekyll::Collection @label=tutorials docs=[#&amp;lt;Jekyll::Document _tutorials/01-PyQt-Tutorial.markdown collection=tutorials&amp;gt;]&amp;gt;}
 &lt;/p&gt;
 
 &lt;p&gt;Collections:&lt;/p&gt;
 
-&lt;li&gt;Label: projects#&lt;jekyll::collection:0x005632f072e538&gt;
+&lt;li&gt;Label: projects#&lt;jekyll::collection:0x0055e2e87f7cd8&gt;
 
-&lt;li&gt;Label: research#&lt;jekyll::collection:0x005632f072e420&gt;
+&lt;li&gt;Label: research#&lt;jekyll::collection:0x0055e2e87f7be8&gt;
 
-&lt;li&gt;Label: tutorials#&lt;jekyll::collection:0x005632f072e358&gt;
-&lt;/jekyll::collection:0x005632f072e358&gt;&lt;/li&gt;&lt;/jekyll::collection:0x005632f072e420&gt;&lt;/li&gt;&lt;/jekyll::collection:0x005632f072e538&gt;&lt;/li&gt;
+&lt;li&gt;Label: tutorials#&lt;jekyll::collection:0x0055e2e87f7b20&gt;
+&lt;/jekyll::collection:0x0055e2e87f7b20&gt;&lt;/li&gt;&lt;/jekyll::collection:0x0055e2e87f7be8&gt;&lt;/li&gt;&lt;/jekyll::collection:0x0055e2e87f7cd8&gt;&lt;/li&gt;
 
     &lt;p&gt;&lt;a href=&quot;/web%20development/2014/07/18/blog-1.html&quot;&gt;(Blog) Dreams&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;DEF&lt;/a&gt; on July 18, 2014.&lt;/p&gt;
   </content>

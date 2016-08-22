@@ -9,7 +9,7 @@
             </div>
             <div class="row">
             {% for post in site.tutorials %}
-                {% if post.layout == "menu" %}
+                {% if post.type == "tutorial" %}
                     <div class="col-md-4 col-sm-6 tutorials-item">
                         <a href="#tutorialsModal{{ post.modal-id }}" class="tutorials-link" data-toggle="modal">
                         <!--<a href="{{post.url}}" class="tutorials-link" data-toggle="modal">-->

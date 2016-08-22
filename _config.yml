@@ -137,7 +137,7 @@ collections:
         title: Research
         output: true
     tutorials:
-        description: If I could do it, you definitely can.
+        description: If I was able to do it, you definitely can.
         title: Tutorials
         output: true
 

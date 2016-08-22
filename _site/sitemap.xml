@@ -76,9 +76,6 @@
     <loc>/research/research-2.html</loc>
   </url>
   <url>
-    <loc>/tutorials/2014-07-18-tutorial-1.html</loc>
-  </url>
-  <url>
-    <loc>/tutorials/PyQt-Tutorial.html</loc>
+    <loc>/tutorials/01-PyQt-Tutorial.html</loc>
   </url>
 </urlset>
