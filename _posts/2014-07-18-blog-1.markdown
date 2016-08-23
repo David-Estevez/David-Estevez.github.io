@@ -1,27 +1,14 @@
 ---
-title: (Blog) Dreams
-subtitle: Website Design
-layout: menu
-modal-id: 1
-type: blog
-date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+layout: post
+title: Hello World!
+description: "Lorem Ipsum"
+modified: 2014-07-18
+tags: [misc]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphon
 ---
 
 Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
-<p>
-Site collections: {{site.collections}}
-</p>
-
-Collections: 
-{% for collection in site.collections %}
-<li>Label: {{collection}}</li>
-{% endfor %}
