@@ -10,6 +10,6 @@ alt: image-alt
 project-date: September 2014
 category: Research
 link: https://github.com/David-Estevez/hormodular
-description: As part of my Bachelor's thesis, I researched gait generation and communications in distributed Modular Robots. For testing, I also developed the [REPY-2 Module](link) and the [SkymegaSMD board](https://github.com/David-Estevez/SkymegaSMD) to build a Modular Robot to be used as validation platform for the algorithms.
+description: As part of my Bachelor's thesis, I researched gait generation and communications in distributed Modular Robots. For testing, I also developed the <a href="https://github.com/David-Estevez/REPY-2.0">REPY-2 Module</a> and the <a href="https://github.com/David-Estevez/SkymegaSMD">SkymegaSMD board</a> to build a Modular Robot to be used as validation platform for the algorithms.
 
 ---
