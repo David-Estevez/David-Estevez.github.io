@@ -6,7 +6,7 @@ reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:
+url: https://david-estevez.github.io
 
 # Owner/author information
 owner:
@@ -73,7 +73,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "R
 
 # Awesome theme data:
 #url: http://localhost:4000
-baseurl: 
+baseurl: https://david-estevez.github.io
 
 # Site settings
 title: DEF
