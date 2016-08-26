@@ -1,6 +1,7 @@
-blog_title:            "DEF: Blog"
+blog_title:       "DEF: Blog"
 description:      My personal blog
-disqus_shortname: hpstrtheme
+comments: false
+disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
@@ -85,19 +86,6 @@ color:
   secondary: fec503  
   secondary-dark: 333
 
-# Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
@@ -112,12 +100,6 @@ social:
     url: https://linkedin.com/in/david-estevez-2aaa4595
   - title: envelope
     url : mailto:destevez@ing.uc3m.es
-
-
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 
 
 # Build settings
 markdown: kramdown
