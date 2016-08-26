@@ -11,14 +11,14 @@ url:
 owner:
   name:           David Estévez
   avatar:         me.png
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  bio:            "Curious engineer researching how to teach robots to do your laundry. I also enjoy building stuff."
   email:          destevez@ing.uc3m.es
   # Social networking links used in footer. Update and remove as you like.
-  twitter:  https://twitter.com/DEFrobotics      
+  twitter:  DEFrobotics      
   facebook:       
-  github: https://github.com/David-Estevez         
+  github: David-Estevez         
   stackexchange:  
-  linkedin: https://linkedin.com/in/david-estevez-2aaa4595      
+  linkedin: david-estevez-2aaa4595      
   instagram:     
   flickr:         
   tumblr:         
