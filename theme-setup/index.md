@@ -159,8 +159,8 @@ Your Google Analytics ID goes here along with meta tags for [Google Webmaster To
 To add additional links in the drop down menu edit `_data/navigation.yml`. Use the following format to set the URL and title for as many links as you'd like. *External links will open in a new window.*
 
 {% highlight yaml %}
-- title: Portfolio
-  url: /portfolio/
+- title: projects
+  url: /projects/
 
 - title: Made Mistakes
   url: http://mademistakes.com  
@@ -184,7 +184,7 @@ Default command
 $ octopress new post "Post Title"
 {% endhighlight %}
 
-Default works great if you want all your posts in one directory, but if you're like me and want to group them into subfolders like `/posts`, `/portfolio`, etc. Then this is the command for you. By specifying the DIR it will create a new post in that folder and populate the `categories:` YAML with the same value.
+Default works great if you want all your posts in one directory, but if you're like me and want to group them into subfolders like `/posts`, `/projects`, etc. Then this is the command for you. By specifying the DIR it will create a new post in that folder and populate the `categories:` YAML with the same value.
 
 {% highlight bash %}
 $ octopress new post "New Post Title" --dir posts

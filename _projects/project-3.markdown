@@ -3,7 +3,7 @@ title: Shiva
 subtitle: MIDI Electronic Drumkit
 layout: default
 modal-id: 3
-type: portfolio
+type: projects
 date: 2015-10-29
 img: shiva.png
 thumbnail: shiva-thumbnail.png

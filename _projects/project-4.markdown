@@ -3,7 +3,7 @@ title: ABBlind
 subtitle: Double-blind audio testing device
 layout: default
 modal-id: 4
-type: portfolio
+type: projects
 date: 2015-12-27
 img: abblind.png
 thumbnail: abblind-thumbnail.png

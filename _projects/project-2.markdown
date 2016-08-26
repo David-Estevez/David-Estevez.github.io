@@ -3,7 +3,7 @@ title: Gecko
 subtitle: Gesture Recognition Software
 layout: default
 modal-id: 2
-type: portfolio
+type: projects
 date: 2014-01-31
 img: gecko.png
 thumbnail: gecko-thumbnail.png

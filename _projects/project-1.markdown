@@ -2,7 +2,7 @@
 title: Robot Devastation
 subtitle: Mixed-Reality Robot Combat Game
 modal-id: 1
-type: portfolio
+type: projects
 date: 2015-12-27
 img: robot-devastation.png
 thumbnail: robot-devastation-thumbnail.png

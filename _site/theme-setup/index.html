@@ -107,7 +107,7 @@
 	    
 	        
 	    
-	    <li><a href="/#portfolio" >Portfolio</a></li>
+	    <li><a href="/#projects" >Projects</a></li>
 	  
 	    
 	        
@@ -298,8 +298,8 @@ bundle exec jekyll serve</code></pre></div>
 
 <p>To add additional links in the drop down menu edit <code>_data/navigation.yml</code>. Use the following format to set the URL and title for as many links as you’d like. <em>External links will open in a new window.</em></p>
 
-<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="p-Indicator">-</span> <span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Portfolio</span>
-  <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/portfolio/</span>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="p-Indicator">-</span> <span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">projects</span>
+  <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/projects/</span>
 
 <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Made Mistakes</span>
   <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://mademistakes.com</span></code></pre></div>
@@ -318,7 +318,7 @@ bundle exec jekyll serve</code></pre></div>
 
 <div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>octopress new post <span class="s2">&quot;Post Title&quot;</span></code></pre></div>
 
-<p>Default works great if you want all your posts in one directory, but if you’re like me and want to group them into subfolders like <code>/posts</code>, <code>/portfolio</code>, etc. Then this is the command for you. By specifying the DIR it will create a new post in that folder and populate the <code>categories:</code> YAML with the same value.</p>
+<p>Default works great if you want all your posts in one directory, but if you’re like me and want to group them into subfolders like <code>/posts</code>, <code>/projects</code>, etc. Then this is the command for you. By specifying the DIR it will create a new post in that folder and populate the <code>categories:</code> YAML with the same value.</p>
 
 <div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>octopress new post <span class="s2">&quot;New Post Title&quot;</span> --dir posts</code></pre></div>
 
