@@ -1,30 +1,7 @@
-Agency Jekyll theme
-====================
+# My Personal Website
 
-Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
+This repository stores the files for my personal website / blog, which you can visit here: https://david-estevez.github.io
 
-# How to use
-
-###Portfolio 
-
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+The site uses two (modified) Jekyll themes:
+   * [Agency Jekyll theme](https://github.com/y7kim/agency-jekyll-theme) for the website
+   * [HPSTR Jekyll Theme](https://github.com/mmistakes/hpstr-jekyll-theme) for the blog.
