@@ -4,13 +4,52 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-11-13T15:44:16+01:00</updated>
+<updated>2016-12-28T01:36:56+01:00</updated>
 <id>/</id>
 <author>
   <name>David Estévez</name>
   <uri>/</uri>
   <email>destevez@ing.uc3m.es</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Eginzaleak!]]></title>
+ <link rel="alternate" type="text/html" href="/2016/12/28/eginzaleak.html" />
+  <id>/2016/12/28/eginzaleak</id>
+  <updated>2016-12-28T00:00:00-00:00</updated>
+  <published>2016-12-28T00:00:00+01:00</published>
+  
+  <author>
+    <name>David Estévez</name>
+    <uri></uri>
+    <email>destevez@ing.uc3m.es</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;El pasado 17 de Diciembre Diana Franco de &lt;a href=&quot;https://www.tabakalera.eu/es/laboratorios&quot;&gt;Hirikilabs&lt;/a&gt; nos invitó a &lt;a href=&quot;https://twitter.com/JorFru_&quot;&gt;Jorge Frutos&lt;/a&gt; y a mi a participar en el Eginzaleak! representando a &lt;a href=&quot;http://uc3music.github.io/&quot;&gt;UC3Music&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hirikilabs es un proyecto que pretende acercar la tecnología y la fabricación digital a la ciudadanía. Forma parte de &lt;a href=&quot;https://www.tabakalera.eu/es&quot;&gt;Tabakalera&lt;/a&gt;, un centro cultural / biblioteca megaguay del futuro en la que, además de los clásicos libros, podemos encontrar también sofás con televisores y videoconsolas e incluso instrumentos musicales. Los cuales, ya que somos UC3Music, no podíamos irnos de allí sin probar.&lt;/p&gt;
+
+&lt;figure align=&quot;center&quot;&gt;
+	&lt;img src=&quot;/img/blog/2016-12-28/eginzaleak01.jpg&quot; alt=&quot;Tienen instrumentos en la biblioteca!&quot; width=&quot;450px&quot; /&gt;
+	&lt;figcaption&gt;Tienen instrumentos en la biblioteca!&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.tabakalera.eu/es/eginzaleak-2016-semana-tecnologia-fabricacion-ciudadanas-hackers-makers&quot;&gt;Eginzaleak!&lt;/a&gt;, por otra parte, son una serie de actividades relacionadas con la tecnología, que culmina con una feria. Nuestro cometido durante el Eginzaleak! fue el participar en esa feria con un pequeño puesto en el que enseñar nuestros &lt;a href=&quot;https://github.com/UC3music&quot;&gt;cacharros sonoros&lt;/a&gt;. Además, dimos un par de talleres de Drawdio en los que asistentes a la feria, sin  necesidad de tener ningún conocimiento previo sobre electrónica, montaron sus propios Drawdios y se los llevaron a casa. También dimos una charla sobre nuestros proyectos.&lt;/p&gt;
+
+&lt;figure align=&quot;center&quot;&gt;
+	&lt;img src=&quot;/img/blog/2016-12-28/eginzaleak02.jpg&quot; alt=&quot;Jorge y yo durante el taller&quot; /&gt;
+	&lt;figcaption&gt;Jorge y yo durante el taller&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Como os podéis imaginar, lo pasamos genial enseñando nuestros proyectos y, sobretodo, conociendo otros proyectos y los makers detrás de ellos. A todos ellos, y en especial a la organización, que se portaron genial con nosotros: Eskerrik asko!&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/2016/12/28/eginzaleak.html&quot;&gt;Eginzaleak!&lt;/a&gt; was originally published by David Estévez at &lt;a href=&quot;&quot;&gt;DEF: Blog&lt;/a&gt; on December 28, 2016.&lt;/p&gt;
+
+  </content>
+</entry>
 
 
 <entry>
