@@ -4,13 +4,48 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-12-28T01:36:56+01:00</updated>
+<updated>2017-01-12T01:47:32+01:00</updated>
 <id>/</id>
 <author>
   <name>David Estévez</name>
   <uri>/</uri>
   <email>destevez@ing.uc3m.es</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Automatizando la descarga de eBooks de O'Reilly]]></title>
+ <link rel="alternate" type="text/html" href="/2017/01/12/oreilly-free-ebooks.html" />
+  <id>/2017/01/12/oreilly-free-ebooks</id>
+  <updated>2017-01-12T00:00:00-00:00</updated>
+  <published>2017-01-12T00:00:00+01:00</published>
+  
+  <author>
+    <name>David Estévez</name>
+    <uri></uri>
+    <email>destevez@ing.uc3m.es</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Hoy, a través del twitter de Adafruit me he enterado de que O’Reilly tenía disponibles más de 243 eBooks sobre informática y programación gratis desde su web.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Hardware &amp;amp; IoT, Programming, Data, and More: 243 Free E-Books from &lt;a href=&quot;https://twitter.com/OReillyMedia&quot;&gt;@OReillyMedia&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/hashtag/ebook?src=hash&quot;&gt;#ebook&lt;/a&gt; &lt;a href=&quot;https://t.co/k4mZ0ukpJp&quot;&gt;https://t.co/k4mZ0ukpJp&lt;/a&gt;&lt;/p&gt;&amp;mdash; adafruit industries (@adafruit) &lt;a href=&quot;https://twitter.com/adafruit/status/818837538186129408&quot;&gt;January 10, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Como hace poco “liberaron” eBooks de manera similar, y me costó un rato hacerme con todos los links y descargar los eBooks, esta vez opté por automatizar el proceso. Para ello, usé &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; y &lt;a href=&quot;https://www.crummy.com/software/BeautifulSoup/bs4/doc/&quot;&gt;Beautiful Soup&lt;/a&gt; para extraer de forma automática los links de la web de O’Reilly (y ya de paso no tener que logearme).&lt;/p&gt;
+
+&lt;p&gt;El script es sencillo, busca las distintas categorías a partir de la página principal y dentro de cada categoría busca los libros que aparecen disponibles. Una vez se tiene la url de la página de cada libro, con una sencilla modificación se obtiene la url del libro en pdf, mobi y epub. Todas estas urls se guardan en un archivo &lt;code class=&quot;highlighter-rouge&quot;&gt;books.txt&lt;/code&gt;. Además, como ya tenía descargados algunos de ellos de la vez anterior, he añadido una pequeña comprobación. Si encuentra en la carpeta desde la que se lanza el script un archivo con el mismo nombre que el archivo a descargar, lo ignora.&lt;/p&gt;
+
+&lt;p&gt;Una vez se tiene el archivo &lt;code class=&quot;highlighter-rouge&quot;&gt;books.txt&lt;/code&gt; con el listado de links, se puede usar un programa como wget o curl para descargar de forma automática todos los links.&lt;/p&gt;
+
+&lt;p&gt;Este script está disponible en un Gist para todo el que quiera usarlo o simplemente echarle un ojo:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/David-Estevez/4e82161347ee23e5b7ffeb7124347d2a.js&quot;&gt;&lt;/script&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/2017/01/12/oreilly-free-ebooks.html&quot;&gt;Automatizando la descarga de eBooks de O&#39;Reilly&lt;/a&gt; was originally published by David Estévez at &lt;a href=&quot;&quot;&gt;DEF: Blog&lt;/a&gt; on January 12, 2017.&lt;/p&gt;
+
+  </content>
+</entry>
 
 
 <entry>
