@@ -144,6 +144,109 @@
 <article class="hentry">
   <header>
     
+      <div class="entry-image-index">
+        <a href="/2017/02/07/reto-ferrovial-ennomotive.html" title="Reto Ferrovial-Ennomotive"><img src="/img/blog/2017-02-07/header.jpg" alt="Reto Ferrovial-Ennomotive"></a>
+      </div><!-- /.entry-image -->
+    
+    <div class="entry-meta">
+      <span class="entry-date date published updated"><time datetime="2017-02-07T00:00:00+01:00"><a href="/2017/02/07/reto-ferrovial-ennomotive.html">February 07, 2017</a></time></span><span class="author vcard"><span class="fn"><a href="/about/" title="About David Estévez">David Estévez</a></span></span>
+      
+      <span class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        
+Reading time ~2 minutes
+      </span><!-- /.entry-reading-time -->
+      
+    </div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title"><a href="/2017/02/07/reto-ferrovial-ennomotive.html" rel="bookmark" title="Reto Ferrovial-Ennomotive" itemprop="url">Reto Ferrovial-Ennomotive</a></h1>
+    
+  </header>
+  <div class="entry-content" align="justify">
+    <p>El <a href="http://www.ennomotive.com/autonomous-robot-arduino-challenge-prizes/">Reto Ferrovial-Ennomotive</a> es una competición internacional de robótica que tuvo lugar durante la <a href="http://www.globalrobotexpo.com/es/ferrovial-challenge_esp/">Robot Global Expo</a> de este año. El objetivo de este reto era construir un robot móvil que, de forma autónoma, fuese capaz de recorrer un circuito desde un punto a otro sin chocar con ningún obstáculo.</p>
+
+<figure align="center">
+	<img src="/img/blog/2017-02-07/ennomotive-01.jpg" alt="El circuito emulaba una construcción" width="450px" />
+	<figcaption>El circuito emulaba una construcción.</figcaption>
+</figure>
+
+<p>Como en ASROB nos van los retos más que a un tonto un lápiz, formamos un equipo para competir en el reto. El equipo lo componíamos <a href="http://roboticslab.uc3m.es/roboticslab/people/jg-victores">Juan G. Víctores</a>, <a href="https://github.com/victordiazobregon">Víctor Díaz</a>, <a href="https://github.com/imontesino">Ignacio Montesino</a> y un servidor (me refiero a mi, no a las cosas esas que se conectan a internet, aunque también paso bastante tiempo conectado…).</p>
+
+<p>Nuestra idea inicial era resucitar la plataforma <a href="http://asrob.uc3m.es/index.php/Proyecto_Ecro">ECRO</a>, que por su tamaño y forma nos pareció perfecta para el transporte de objetos desde un punto A hasta un punto B. Además, como mecánicamente ya estaba prácticamente montado eso nos quitaría mucho trabajo. Error número 1. Al leer las bases del concurso, nos dimos cuenta de que el ECRO sobrepasaba ampliamente los límites de tamaño. Vamos, que si lo metíamos tal cual en el circuito, en lugar de evitar los obstáculos pasaría por encima de ellos.</p>
+
+<p>El siquiente paso fue hacerle al <a href="http://asrob.uc3m.es/index.php/Proyecto_Ecro">ECRO</a> una reducción de tamaño considerable, conectando todas las piezas (motores, ruedas, drivers, etc) del robot original a una nueva base de plástico. Al quitarle la plancha metálica original, además, perdió bastante peso, aunque seguía pesando un quintal. A esta versión de ECRO la llamamos cariñosamente NECRO (New ECRO). Con el robot ya hecho, pasamos a cablearlo todo y conectar los contorladores de las ruedas con el PC para poder encender los motores. Tras muchos quebraderos de cabeza conseguimos que los motores se movieran, justo el día antes de que empezase la expo.</p>
+
+<figure class="half">
+	<img src="/img/blog/2017-02-07/ennomotive-02.jpg" alt="ECRO antes" />
+<img src="/img/blog/2017-02-07/ennomotive-03.jpg" alt="ECRO después (NECRO)" />
+	<figcaption>ECRO vs New ECRO</figcaption>
+</figure>
+
+<p>El primer día de la competición era de entrenamientos libres para poner a punto el robot en el circuito. En nuestro caso, el primer día consistió en volver a hacer que los motores se volviesen a mover. En algún momento del transporte del ECRO y su reconexión cometimos el error número 2, y una de las controladoras de las ruedas dejó de funcionar. Tras estar hasta las tantas en la uni solucionando el problema los motores volvieron a funcionar, esta vez hablando directamente con un Arduino a los drivers.</p>
+
+<p>Y así llegó el segundo día de competición, en el que tendría lugar la clasificación para la final. Y nosotros todavía con el robot sin programar. Tras muchas pruebas en el circuito, Juan se curró un pedazo de algoritmo reactivo que usaba la imagen de profundidad de una ASUS XTION Pro para evitar obstáculos y navegar por el circuito. El robot se portó muy bien y quedamos terceros, lo que nos aseguraba un puesto en la final.</p>
+
+<p>El tercer y último día tuvo lugar la final, casi sin tiempo para más pruebas. Esta vez, al comenzar la prueba, el NECRO empezó a arrasar con todos los obstáculos, como si no los viera. Error número 3. Con las prisas, no comprobamos hacia donde miraba la cámara del robot antes de arrancar el programa.Y resulta que la cámara estaba mirando hacia el techo (ligeramente). Cuando lo corregimos ya iba por la recta final, pero aún así empatamos en el tercer puesto. La organización decidió hacer otra ronda de desempate, y esta vez nuestro robot miraba correctamente a los obstáculos, así que quedamos terceros. ¡Todo un éxito!</p>
+
+<figure class="third">
+	
+	
+	<a href="/img/blog/2017-02-07/gallery-01.jpg"><img src="/img/blog/2017-02-07/gallery-01.jpg" alt="" /></a>
+	
+	
+	
+	<a href="/img/blog/2017-02-07/gallery-02.jpg"><img src="/img/blog/2017-02-07/gallery-02.jpg" alt="" /></a>
+	
+	
+	
+	<a href="/img/blog/2017-02-07/gallery-03.jpg"><img src="/img/blog/2017-02-07/gallery-03.jpg" alt="" /></a>
+	
+	
+	
+	<a href="/img/blog/2017-02-07/gallery-04.jpg"><img src="/img/blog/2017-02-07/gallery-04.jpg" alt="" /></a>
+	
+	
+	
+	<a href="/img/blog/2017-02-07/gallery-05.jpg"><img src="/img/blog/2017-02-07/gallery-05.jpg" alt="" /></a>
+	
+	
+	
+	<a href="/img/blog/2017-02-07/gallery-06.jpg"><img src="/img/blog/2017-02-07/gallery-06.jpg" alt="" /></a>
+	
+	
+	
+	<a href="/img/blog/2017-02-07/gallery-07.jpg"><img src="/img/blog/2017-02-07/gallery-07.jpg" alt="" /></a>
+	
+	
+	
+	<a href="/img/blog/2017-02-07/gallery-08.jpg"><img src="/img/blog/2017-02-07/gallery-08.jpg" alt="" /></a>
+	
+	
+	
+	<a href="/img/blog/2017-02-07/gallery-09.jpg"><img src="/img/blog/2017-02-07/gallery-09.jpg" alt="" /></a>
+	
+	
+	
+	<a href="/img/blog/2017-02-07/gallery-10.jpg"><img src="/img/blog/2017-02-07/gallery-10.jpg" alt="" /></a>
+	
+	
+	
+	<a href="/img/blog/2017-02-07/gallery-11.jpg"><img src="/img/blog/2017-02-07/gallery-11.jpg" alt="" /></a>
+	
+	
+	
+	<a href="/img/blog/2017-02-07/gallery-12.jpg"><img src="/img/blog/2017-02-07/gallery-12.jpg" alt="" /></a>
+	
+	
+</figure>
+
+
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+
+<article class="hentry">
+  <header>
+    
     <div class="entry-meta">
       <span class="entry-date date published updated"><time datetime="2017-01-12T00:00:00+01:00"><a href="/2017/01/12/oreilly-free-ebooks.html">January 12, 2017</a></time></span><span class="author vcard"><span class="fn"><a href="/about/" title="About David Estévez">David Estévez</a></span></span>
       

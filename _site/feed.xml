@@ -4,13 +4,110 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2017-01-12T01:47:32+01:00</updated>
+<updated>2017-02-07T14:32:08+01:00</updated>
 <id>/</id>
 <author>
   <name>David Estévez</name>
   <uri>/</uri>
   <email>destevez@ing.uc3m.es</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Reto Ferrovial-Ennomotive]]></title>
+ <link rel="alternate" type="text/html" href="/2017/02/07/reto-ferrovial-ennomotive.html" />
+  <id>/2017/02/07/reto-ferrovial-ennomotive</id>
+  <updated>2017-02-07T00:00:00-00:00</updated>
+  <published>2017-02-07T00:00:00+01:00</published>
+  
+  <author>
+    <name>David Estévez</name>
+    <uri></uri>
+    <email>destevez@ing.uc3m.es</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;El &lt;a href=&quot;http://www.ennomotive.com/autonomous-robot-arduino-challenge-prizes/&quot;&gt;Reto Ferrovial-Ennomotive&lt;/a&gt; es una competición internacional de robótica que tuvo lugar durante la &lt;a href=&quot;http://www.globalrobotexpo.com/es/ferrovial-challenge_esp/&quot;&gt;Robot Global Expo&lt;/a&gt; de este año. El objetivo de este reto era construir un robot móvil que, de forma autónoma, fuese capaz de recorrer un circuito desde un punto a otro sin chocar con ningún obstáculo.&lt;/p&gt;
+
+&lt;figure align=&quot;center&quot;&gt;
+	&lt;img src=&quot;/img/blog/2017-02-07/ennomotive-01.jpg&quot; alt=&quot;El circuito emulaba una construcción&quot; width=&quot;450px&quot; /&gt;
+	&lt;figcaption&gt;El circuito emulaba una construcción.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Como en ASROB nos van los retos más que a un tonto un lápiz, formamos un equipo para competir en el reto. El equipo lo componíamos &lt;a href=&quot;http://roboticslab.uc3m.es/roboticslab/people/jg-victores&quot;&gt;Juan G. Víctores&lt;/a&gt;, &lt;a href=&quot;https://github.com/victordiazobregon&quot;&gt;Víctor Díaz&lt;/a&gt;, &lt;a href=&quot;https://github.com/imontesino&quot;&gt;Ignacio Montesino&lt;/a&gt; y un servidor (me refiero a mi, no a las cosas esas que se conectan a internet, aunque también paso bastante tiempo conectado…).&lt;/p&gt;
+
+&lt;p&gt;Nuestra idea inicial era resucitar la plataforma &lt;a href=&quot;http://asrob.uc3m.es/index.php/Proyecto_Ecro&quot;&gt;ECRO&lt;/a&gt;, que por su tamaño y forma nos pareció perfecta para el transporte de objetos desde un punto A hasta un punto B. Además, como mecánicamente ya estaba prácticamente montado eso nos quitaría mucho trabajo. Error número 1. Al leer las bases del concurso, nos dimos cuenta de que el ECRO sobrepasaba ampliamente los límites de tamaño. Vamos, que si lo metíamos tal cual en el circuito, en lugar de evitar los obstáculos pasaría por encima de ellos.&lt;/p&gt;
+
+&lt;p&gt;El siquiente paso fue hacerle al &lt;a href=&quot;http://asrob.uc3m.es/index.php/Proyecto_Ecro&quot;&gt;ECRO&lt;/a&gt; una reducción de tamaño considerable, conectando todas las piezas (motores, ruedas, drivers, etc) del robot original a una nueva base de plástico. Al quitarle la plancha metálica original, además, perdió bastante peso, aunque seguía pesando un quintal. A esta versión de ECRO la llamamos cariñosamente NECRO (New ECRO). Con el robot ya hecho, pasamos a cablearlo todo y conectar los contorladores de las ruedas con el PC para poder encender los motores. Tras muchos quebraderos de cabeza conseguimos que los motores se movieran, justo el día antes de que empezase la expo.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;img src=&quot;/img/blog/2017-02-07/ennomotive-02.jpg&quot; alt=&quot;ECRO antes&quot; /&gt;
+&lt;img src=&quot;/img/blog/2017-02-07/ennomotive-03.jpg&quot; alt=&quot;ECRO después (NECRO)&quot; /&gt;
+	&lt;figcaption&gt;ECRO vs New ECRO&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;El primer día de la competición era de entrenamientos libres para poner a punto el robot en el circuito. En nuestro caso, el primer día consistió en volver a hacer que los motores se volviesen a mover. En algún momento del transporte del ECRO y su reconexión cometimos el error número 2, y una de las controladoras de las ruedas dejó de funcionar. Tras estar hasta las tantas en la uni solucionando el problema los motores volvieron a funcionar, esta vez hablando directamente con un Arduino a los drivers.&lt;/p&gt;
+
+&lt;p&gt;Y así llegó el segundo día de competición, en el que tendría lugar la clasificación para la final. Y nosotros todavía con el robot sin programar. Tras muchas pruebas en el circuito, Juan se curró un pedazo de algoritmo reactivo que usaba la imagen de profundidad de una ASUS XTION Pro para evitar obstáculos y navegar por el circuito. El robot se portó muy bien y quedamos terceros, lo que nos aseguraba un puesto en la final.&lt;/p&gt;
+
+&lt;p&gt;El tercer y último día tuvo lugar la final, casi sin tiempo para más pruebas. Esta vez, al comenzar la prueba, el NECRO empezó a arrasar con todos los obstáculos, como si no los viera. Error número 3. Con las prisas, no comprobamos hacia donde miraba la cámara del robot antes de arrancar el programa.Y resulta que la cámara estaba mirando hacia el techo (ligeramente). Cuando lo corregimos ya iba por la recta final, pero aún así empatamos en el tercer puesto. La organización decidió hacer otra ronda de desempate, y esta vez nuestro robot miraba correctamente a los obstáculos, así que quedamos terceros. ¡Todo un éxito!&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+	
+	
+	&lt;a href=&quot;/img/blog/2017-02-07/gallery-01.jpg&quot;&gt;&lt;img src=&quot;/img/blog/2017-02-07/gallery-01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	
+	
+	
+	&lt;a href=&quot;/img/blog/2017-02-07/gallery-02.jpg&quot;&gt;&lt;img src=&quot;/img/blog/2017-02-07/gallery-02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	
+	
+	
+	&lt;a href=&quot;/img/blog/2017-02-07/gallery-03.jpg&quot;&gt;&lt;img src=&quot;/img/blog/2017-02-07/gallery-03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	
+	
+	
+	&lt;a href=&quot;/img/blog/2017-02-07/gallery-04.jpg&quot;&gt;&lt;img src=&quot;/img/blog/2017-02-07/gallery-04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	
+	
+	
+	&lt;a href=&quot;/img/blog/2017-02-07/gallery-05.jpg&quot;&gt;&lt;img src=&quot;/img/blog/2017-02-07/gallery-05.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	
+	
+	
+	&lt;a href=&quot;/img/blog/2017-02-07/gallery-06.jpg&quot;&gt;&lt;img src=&quot;/img/blog/2017-02-07/gallery-06.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	
+	
+	
+	&lt;a href=&quot;/img/blog/2017-02-07/gallery-07.jpg&quot;&gt;&lt;img src=&quot;/img/blog/2017-02-07/gallery-07.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	
+	
+	
+	&lt;a href=&quot;/img/blog/2017-02-07/gallery-08.jpg&quot;&gt;&lt;img src=&quot;/img/blog/2017-02-07/gallery-08.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	
+	
+	
+	&lt;a href=&quot;/img/blog/2017-02-07/gallery-09.jpg&quot;&gt;&lt;img src=&quot;/img/blog/2017-02-07/gallery-09.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	
+	
+	
+	&lt;a href=&quot;/img/blog/2017-02-07/gallery-10.jpg&quot;&gt;&lt;img src=&quot;/img/blog/2017-02-07/gallery-10.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	
+	
+	
+	&lt;a href=&quot;/img/blog/2017-02-07/gallery-11.jpg&quot;&gt;&lt;img src=&quot;/img/blog/2017-02-07/gallery-11.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	
+	
+	
+	&lt;a href=&quot;/img/blog/2017-02-07/gallery-12.jpg&quot;&gt;&lt;img src=&quot;/img/blog/2017-02-07/gallery-12.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	
+	
+&lt;/figure&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/2017/02/07/reto-ferrovial-ennomotive.html&quot;&gt;Reto Ferrovial-Ennomotive&lt;/a&gt; was originally published by David Estévez at &lt;a href=&quot;&quot;&gt;DEF: Blog&lt;/a&gt; on February 07, 2017.&lt;/p&gt;
+
+  </content>
+</entry>
 
 
 <entry>
