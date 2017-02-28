@@ -4,13 +4,40 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2017-02-28T02:04:56+01:00</updated>
+<updated>2017-02-28T11:40:11+01:00</updated>
 <id>/</id>
 <author>
   <name>David Estévez</name>
   <uri>/</uri>
   <email>destevez@ing.uc3m.es</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Nuevo tutorial Git]]></title>
+ <link rel="alternate" type="text/html" href="/2017/02/28/tutorial-git.html" />
+  <id>/2017/02/28/tutorial-git</id>
+  <updated>2017-02-28T00:00:00-00:00</updated>
+  <published>2017-02-28T00:00:00+01:00</published>
+  
+  <author>
+    <name>David Estévez</name>
+    <uri></uri>
+    <email>destevez@ing.uc3m.es</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;a href=&quot;https://git-scm.com/&quot;&gt;Git&lt;/a&gt; es un software para el control de versiones que facilita el desarrollo de software controlando qué cambios se hacen al software y quién los hace. &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; es una plataforma online basada en Git en la que alojar nuestro código y con la que colaborar con otros desarrolladores.&lt;/p&gt;
+
+&lt;p&gt;Git y GitHub son muy usados en &lt;a href=&quot;http://asrob.uc3m.es&quot;&gt;ASROB&lt;/a&gt; y &lt;a href=&quot;https://github.com/UC3Music/&quot;&gt;UC3Music&lt;/a&gt;, incluso para gestionar &lt;a href=&quot;https://github.com/asrob-uc3m/actas/issues&quot;&gt;asuntos no relacionados con el software&lt;/a&gt;. Son sencillos de usar, pero para perder el miedo a lo desconocido lo mejor es tener a alguien que te eche una mano y te explique los conceptos básicos. Pero a veces no tengo tiempo para quedar con los nuevos para explicarles estos conceptos, por lo que he hecho un tutorial en forma de GitBook titulado &lt;a href=&quot;https://www.gitbook.com/book/david-estevez/the-git-the-bad-and-the-ugly&quot;&gt;The Git, the Bad and the Ugly&lt;/a&gt; para que ellos mismos puedan aprender por su cuenta.&lt;/p&gt;
+
+&lt;p&gt;He pensado que podría ser útil para más gente aparte de los nuevos de las asociaciones, así que he liberado el tutorial para que cualquiera pueda beneficiarse de él. Incluye conceptos básicos de Git y GitHub, así como unas buenas prácticas a la hora de usarlos y algunas páginas web para aprender más allá de los contenidos que abarca el tutorial.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Link&lt;/strong&gt;: &lt;a href=&quot;https://www.gitbook.com/book/david-estevez/the-git-the-bad-and-the-ugly/details&quot;&gt;The Git, the Bad and the Ugly - Una guía para empezar a colaborar en proyectos usando Git.&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/2017/02/28/tutorial-git.html&quot;&gt;Nuevo tutorial Git&lt;/a&gt; was originally published by David Estévez at &lt;a href=&quot;&quot;&gt;DEF: Blog&lt;/a&gt; on February 28, 2017.&lt;/p&gt;
+
+  </content>
+</entry>
 
 
 <entry>
