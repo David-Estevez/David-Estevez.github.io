@@ -11,7 +11,8 @@ image:
 
 La semana pasada asistí a la *International Conference on Autonomous Robot Systems and Competitions* (ICARSC), que tuvo lugar del 26 al 28 de Abril en Coimbra, Portugal. 
 
-Fui junto con mis compañeros de laboratorio a presentar nuestros trabajos que habían sido aceptados en la conferencia. Concretamente, yo presenté dos de mis trabajos sobre manipulación y percepción de prendas con robots: uno sobre [desdoblado de ropa]() y otro sobre [planchado automático mediante robots]().
+Fui junto con mis compañeros de laboratorio a presentar nuestros trabajos, que habían sido aceptados en la conferencia. Concretamente, yo presenté dos de mis trabajos sobre manipulación y percepción de prendas con robots: uno sobre [desdoblado de ropa](https://www.slideshare.net/DavidEstevez11/estevez2017icasrcunfoldingpresentation) y otro sobre [planchado automático mediante robots](https://www.slideshare.net/DavidEstevez11/estevez2017icasrcironingpresentation). Pasé unos días geniales junto a mis compañeros de laboratorio, compartiendo risas y buenos ratos, y también madrugones y caminatas interminables por la ciudad. Coimbra, pese a sus muchas cuestas, es realmente bonita.
+
 
 <figure align="center">
 	<img src="/img/blog/2017-05-02/icarsc-2017-01.jpg" alt="Nosotros haciendo un poco el gandul" width="450px">
@@ -19,11 +20,7 @@ Fui junto con mis compañeros de laboratorio a presentar nuestros trabajos que h
 </figure>
 
 
-Pasé unos días geniales junto a mis compañeros de laboratorio, compartiendo risas, buenos ratos, y sueño, y...
-
-
-
-Uno de mis trabajos, "Unfolding bla, bla, bla", fue seleccionado y se le concedió el *Best Student Paper Award*.
+Tras la cena de gala, los organizadores anunciaron los artículos premiados de la conferencia. Uno de mis trabajos, "Improving and Evaluating Robotic Garment Unfolding: A Garment-Agnostic Approach", fue seleccionado y se le concedió el *Best Student Paper Award*, lo que puso la guinda a una velada 
 
 <figure align="center">
 	<img src="/img/blog/2017-05-02/icarsc-2017-02.jpg" alt="Posando con el diploma" width="450px">
@@ -31,10 +28,10 @@ Uno de mis trabajos, "Unfolding bla, bla, bla", fue seleccionado y se le concedi
 </figure>
 
 
-En este post quería agradecerles a mis compañeros, a mis co-autores y a todas las personas que están siempre ahí cuando se las necesita, porque sin ellas no habría sido posible este premio.
+Este pequeño post quería dedicárselo a mis compañeros, a los co-autores del artículo premiado y a todas las personas que están siempre ahí cuando se las necesita, porque sin ellas no habría sido posible este premio. ¡Muchas gracias, chic@s!
 
 
 <figure align="center">
 	<img src="/img/blog/2017-05-02/icarsc-2017-03.jpg" alt="Foto de familia con la furgoneta, en la que pasamos bastantes horas de viaje." width="450px">
-	<figcaption>Foto de familia con la furgoneta, en la que pasamos bastantes horas de viaje.</figcaption>
+	<figcaption>Foto de familia con la furgoneta, en la que pasamos <strike>demasiadas</strike> muchas horas de viaje.</figcaption>
 </figure>
