@@ -1,0 +1,36 @@
+---
+layout: post
+title: Conferencia ICARSC 2017
+description: Conferencia de robótica ICARSC 2017
+modified: 2017-05-02
+tags: [investigación, robótica, conferencia]
+image: 
+  feature: 2017-05-02/header.jpg
+---
+
+
+La semana pasada asistí a la *International Conference on Autonomous Robot Systems and Competitions* (ICARSC), que tuvo lugar del 26 al 28 de Abril en Coimbra, Portugal. 
+
+Fui junto con mis compañeros de laboratorio a presentar nuestros trabajos, que habían sido aceptados en la conferencia. Concretamente, yo presenté dos de mis trabajos sobre manipulación y percepción de prendas con robots: uno sobre [desdoblado de ropa](https://www.slideshare.net/DavidEstevez11/estevez2017icasrcunfoldingpresentation) y otro sobre [planchado automático mediante robots](https://www.slideshare.net/DavidEstevez11/estevez2017icasrcironingpresentation). Pasé unos días geniales junto a mis compañeros de laboratorio, compartiendo risas y buenos ratos, y también madrugones y caminatas interminables por la ciudad. Coimbra, pese a sus muchas cuestas, es realmente bonita.
+
+
+<figure align="center">
+	<img src="/img/blog/2017-05-02/icarsc-2017-01.jpg" alt="Nosotros haciendo un poco el gandul" width="450px">
+	<figcaption>Nosotros haciendo un poco el gandul.</figcaption>
+</figure>
+
+
+Una vez presentados los artículos, los organizadores nos llevaron a visitar la Universidad de Coimbra y a cenar. Tras la cena de gala, los organizadores anunciaron los artículos premiados de la conferencia. Uno de los trabajos que presenté, "Improving and Evaluating Robotic Garment Unfolding: A Garment-Agnostic Approach", fue seleccionado y se le concedió el *Best Student Paper Award*, lo que puso la guinda a un gran día.
+<figure align="center">
+	<img src="/img/blog/2017-05-02/icarsc-2017-02.jpg" alt="Posando con el diploma" width="450px">
+	<figcaption>Posando con el diploma.</figcaption>
+</figure>
+
+
+Este pequeño post quería dedicárselo a mis compañeros, a los co-autores del artículo premiado y a todas las personas que están siempre ahí cuando se las necesita, porque sin ellas no habría sido posible este premio. ¡Muchas gracias, chic@s!
+
+
+<figure align="center">
+	<img src="/img/blog/2017-05-02/icarsc-2017-03.jpg" alt="Foto de familia con la furgoneta, en la que pasamos bastantes horas de viaje." width="450px">
+	<figcaption>Foto de familia con la furgoneta, en la que pasamos <strike>demasiadas</strike> muchas horas de viaje.</figcaption>
+</figure>
