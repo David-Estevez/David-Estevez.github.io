@@ -20,8 +20,7 @@ Fui junto con mis compañeros de laboratorio a presentar nuestros trabajos, que 
 </figure>
 
 
-Tras la cena de gala, los organizadores anunciaron los artículos premiados de la conferencia. Uno de mis trabajos, "Improving and Evaluating Robotic Garment Unfolding: A Garment-Agnostic Approach", fue seleccionado y se le concedió el *Best Student Paper Award*, lo que puso la guinda a una velada 
-
+Una vez presentados los artículos, los organizadores nos llevaron a visitar la Universidad de Coimbra y a cenar. Tras la cena de gala, los organizadores anunciaron los artículos premiados de la conferencia. Uno de los trabajos que presenté, "Improving and Evaluating Robotic Garment Unfolding: A Garment-Agnostic Approach", fue seleccionado y se le concedió el *Best Student Paper Award*, lo que puso la guinda a un gran día.
 <figure align="center">
 	<img src="/img/blog/2017-05-02/icarsc-2017-02.jpg" alt="Posando con el diploma" width="450px">
 	<figcaption>Posando con el diploma.</figcaption>
