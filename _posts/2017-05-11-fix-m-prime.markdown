@@ -16,15 +16,13 @@ Como he dicho, la solución es sencilla: aumentar la distancia a la que sube la 
 2. Ir al [repositorio online de la M Prime](https://github.com/M-Prime/M_Prime_One) y descargarlo. Nos interesan los archivos del firmware, que están en la carpeta `firmware/Marlin`.
 3. Abrimos el código descargado con el entorno de Arduino. Tenemos que realizar las siguientes modificaciones al código:
   * Archivo `firmware/Marlin/Configuration.h`: modificar la línea 549, cambiando el valor de 5mm a 1mm:
-	
-   ~~~
-   #define Z_PROBE_DEPLOY_HEIGHT 1 // Raise to make room for the probe to deploy /
-   ~~~
-  * Archivo `firmware/Marlin/Configuration_adv.h`: modificar la línea 316, cambiando el valor de 2mm a 5mm:
-   
-   ```
-   #define Z_HOME_BUMP_MM 5
-   ```
+    ```
+    #define Z_PROBE_DEPLOY_HEIGHT 1 // Raise to make room for the probe to deploy /
+    ```
+  * Archivo `firmware/Marlin/Configuration_adv.h`: modificar la línea 316, cambiando el valor de 2mm a 5mm: 
+    ```
+    #define Z_HOME_BUMP_MM 5
+    ```
 4. Subir el código modificado al Arduino Mega de la impresora.
 
 Y ya está. Una vez hechos esos cambios, mi M Prime One empezó a funcionar genial, y no me ha vuelto a dar nada de guerra. ¡Ahora es darle a "imprimir" y listo!
