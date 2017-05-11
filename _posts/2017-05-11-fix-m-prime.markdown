@@ -17,9 +17,9 @@ Como he dicho, la solución es sencilla: aumentar la distancia a la que sube la 
 3. Abrimos el código descargado con el entorno de Arduino. Tenemos que realizar las siguientes modificaciones al código:
   * Archivo `firmware/Marlin/Configuration.h`: modificar la línea 549, cambiando el valor de 5mm a 1mm:
 	
-   ```
+   ~~~
    #define Z_PROBE_DEPLOY_HEIGHT 1 // Raise to make room for the probe to deploy /
-   ```
+   ~~~
   * Archivo `firmware/Marlin/Configuration_adv.h`: modificar la línea 316, cambiando el valor de 2mm a 5mm:
    
    ```
