@@ -20,7 +20,6 @@ Como he dicho, la solución es sencilla: aumentar la distancia a la que sube la 
    ```
    #define Z_PROBE_DEPLOY_HEIGHT 1 // Raise to make room for the probe to deploy /
    ```
-   
   * Archivo `firmware/Marlin/Configuration_adv.h`: modificar la línea 316, cambiando el valor de 2mm a 5mm:
    
    ```
