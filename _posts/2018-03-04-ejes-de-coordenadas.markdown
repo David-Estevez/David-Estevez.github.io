@@ -5,7 +5,7 @@ description: Ejes de coordenadas impresos en 3D para enseñar robótica industri
 modified: 2018-03-04
 tags: [robótica, docencia, impresión 3D]
 image:
-  feature: 2018-03-04/axes_small.png
+  feature: 2018-03-04/axes_small.jpg
 ---
 
 Este curso he comenzado a impartir clases de robótica industrial en la universidad como parte de mi doctorado. Una de los primeros conceptos que se enseñan en esta
