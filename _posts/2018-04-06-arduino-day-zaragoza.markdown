@@ -3,6 +3,7 @@ layout: post
 title: Arduino Day Zaragoza 2018
 description: Visitamos el Arduino Day Zaragoza 2018
 modified: 2018-04-06
+permalink: arduino-day-zaragoza.html
 tags: [feria, diy, arduino]
 image:
   feature: 2018-04-06/feature.jpeg
@@ -10,21 +11,21 @@ image:
   creditlink: http://lolofrancos.es/
 ---
 
-El pasado 6 de Abril asistimos al [Arduino Day Zaragoza 2018](). [Pablo](http://twitter.com/pablorubma) nos invitó a [JorFru](https://twitter.com/JorFru_) y a mi a dar un taller de Drawdio durante el evento. Junto a nosotros viajaron otros tantos makers madrileños que no quisieron perderse este evento.
+El pasado 6 de Abril asistimos al [Arduino Day Zaragoza 2018](http://arduinodayzgz.es/evento_2018.html). [Pablo](http://twitter.com/pablorubma) nos invitó a [JorFru](https://twitter.com/JorFru_) y a mi a dar un taller de Drawdio durante el evento. Junto a nosotros viajaron otros tantos makers madrileños que no quisieron perderse este evento.
+
+Al llegar allí tras un largo viaje nos encontramos unas instalaciones fabulosas y unos organizadores muy majos que nos enseñaron lo que tenían preparado para el día siguiente. Estuvimos compartiendo experiencias y jugando con sus robots de combate de globos, a los que [JorFru]() les puso cámara para poder manejarlos en primera persona. Tras la cena ~~seguimos frikeando~~ nos fuimos a la cama para estar listos para el día siguiente.
 
 <figure align="center">
 	<img src="/img/blog/2018-04-06/departure.jpeg" alt="Corriendo hacia el coche" width="450px">
 	<figcaption>Julián y yo corriendo hacia el coche con las provisiones para el viaje</figcaption>
 </figure>
 
-Al llegar allí tras un largo viaje nos encontramos unas instalaciones fabulosas y unos organizadores muy majos que nos enseñaron lo que tenían preparado para el día siguiente. Estuvimos compartiendo experiencias y jugando con sus robots de combate de globos, a los que [JorFru]() les puso cámara para poder manejarlos en primera persona. Tras la cena ~~seguimos frikeando~~ nos fuimos a la cama para estar listos para el día siguiente.
+El día siguiente lo comenzamos asistiendo a las charlas de *Robots con Patas* de [Javier Isabel](https://twitter.com/JavierIH) y *Robots, gatitos y FPGAs libres* donde [Julián](https://twitter.com/jcarolinares) nos habló de sus robots bioinspirados con osciladores. Siempre es un placer escucharles hablar porque saben transmitir perfectamente la pasión que sienten hacia sus trabajos y hacia los robots en general y enganchar al público. Tras estas charlas hicimos un descanso para visitar algunos stands como los de [Akirasan](https://twitter.com/akirasan), [OPRobots](https://twitter.com/OPRobots) o el de [Rubén](https://twitter.com/RugidoDePuma) donde pudimos ver todos sus robots de competición, incluyendo a Pumatrón (que creo que es el robot siguelíneas más rápido que he visto en persona).
 
 <figure align="center">
 	<img src="/img/blog/2018-04-06/people.png" alt="Aforo completo" width="450px">
 	<figcaption>¡La feria estaba a rebosar de gente!</figcaption>
 </figure>
-
-El día siguiente lo comenzamos asistiendo a las charlas de *Robots con Patas* de [Javier Isabel](https://twitter.com/JavierIH) y *Robots, gatitos y FPGAs libres* donde [Julián](https://twitter.com/jcarolinares) nos habló de sus robots bioinspirados con osciladores. Siempre es un placer escucharles hablar porque saben transmitir perfectamente la pasión que sienten hacia sus trabajos y hacia los robots en general y enganchar al público. Tras estas charlas hicimos un descanso para visitar algunos stands como los de [Akirasan](https://twitter.com/akirasan), [OPRobots](https://twitter.com/OPRobots) o el de [Rubén](https://twitter.com/RugidoDePuma) donde pudimos ver todos sus robots de competición, incluyendo a Pumatrón (que creo que es el robot siguelíneas más rápido que he visto en persona).
 
 Tras la comida, dimos nuestro taller. La mayoría de los asistentes al taller fueron niños y sobre todo niñas pequeñas, que no tuvieron miedo alguno a la hora de coger el soldador y ponerse a montar sus Drawdios. ¡Ojalá que a muchas de ellas les haya picado el gusanillo maker y continúen investigando y construyendo cosas!
 

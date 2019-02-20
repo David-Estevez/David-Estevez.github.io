@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Hello World!
 description: Hello World! post
 modified: 2016-08-26
+permalink: hello-world.html
 tags: [misc]
 ---
 

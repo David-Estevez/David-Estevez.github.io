@@ -3,6 +3,7 @@ layout: post
 title: Eginzaleak!
 description: UC3Music en Eginzaleak!
 modified: 2016-12-28
+permalink: eginzaleak
 tags: [viajes, talleres, ferias]
 ---
 

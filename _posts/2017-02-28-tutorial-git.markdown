@@ -3,6 +3,7 @@ layout: post
 title: Nuevo tutorial Git
 description: Liberado nuevo tutorial de Git en formato GitBook
 modified: 2017-02-28
+permalink: tutorial-git.html
 tags: [software, tutorial, git]
 ---
 

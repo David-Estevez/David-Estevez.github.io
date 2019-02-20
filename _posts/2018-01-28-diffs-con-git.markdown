@@ -3,6 +3,7 @@ layout: post
 title: Trabajando con git y archivos binarios
 description: Cómo añadir archivos binarios a un repositorio de git
 modified: 2018-01-28
+permalink: diffs-con-git.html
 tags:  [software, tutorial, git]
 ---
 
