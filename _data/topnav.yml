@@ -12,25 +12,25 @@ topnav_dropdowns:
   folders:
     - title: Research
       folderitems:
-        - title: Publications
-          url: https://talk.jekyllrb.com
         - title: Garment Perception and Manipulation
           url: http://jekyllrb.com/docs/home/
         - title: Modular Robots
           url: http://jekyllrb.com/docs/home/
+        - title: Publications
+          url: https://talk.jekyllrb.com
     - title: Projects
       folderitems:
         - title: Personal projects
-          url: /mydoc_introduction.html
+          url: /projects.html
         - title: Projects at ASROB
-          url: /p1_landing_page.html
+          url: /projects.html
         - title: Projects at UC3Music
-          url: /p2_landing_page.html
+          url: /projects.html
     - title: Tutorials
       folderitems:
         - title: PyQt / Pyside
-          url: http://stackoverflow.com/questions/tagged/jekyll
+          external_url: https://david-estevez.gitbooks.io/tutorial-pyside-pyqt4/content/
         - title: The Git, the Bad and the Ugly
-          url: http://idratherbewriting.com/category-jekyll/
+          external_url: https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/es/
         - title: All tutorials
           url: http://stackoverflow.com/questions/tagged/jekyll

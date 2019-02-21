@@ -98,7 +98,31 @@ permalink: index.html
                 <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
                 <div class="row">
                   <div class="col-lg-12">
-                      <h2 class="page-header">Research</h2>
+                      <h2 class="page-header">Research Lines</h2>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                          <img class="card-img-top" src="img/research/garments-thumbnail.png" alt="Garment Perception and Manipulation featured image">
+                        </div>
+                        <div class="panel-body">
+                          <h4 class="media-heading">Garment Perception and Manipulation</h4>
+                          <p>When robots do laundry.</p>
+                          <a href="404.html" class="btn btn-primary">View topic</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                          <img class="card-img-top" src="img/research/modularrobots-thumbnail.png" alt="çModular robots featured image">
+                        </div>
+                        <div class="panel-body">
+                          <h4 class="media-heading">Modular Robots</h4>
+                          <p>When robots are made of robots.</p>
+                          <a href="404.html" class="btn btn-primary">View topic</a>
+                        </div>
+                    </div>
                   </div>
                   <div class="col-md-4">
                     <div class="panel panel-default text-center">
@@ -111,88 +135,65 @@ permalink: index.html
                         <div class="panel-body">
                             <h4>Publications</h4>
                             <p>List of all my academic publications.</p>
-                            <a href="404.html" class="btn btn-primary">View publications.</a>
+                            <a href="404.html" class="btn btn-primary">View publications</a>
                         </div>
                     </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="media">
-                          <div class="pull-left">
-                              <span class="fa-stack fa-2x">
-                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                    <i class="fa fa-database fa-stack-1x fa-inverse"></i>
-                              </span>
-                          </div>
-                          <div class="media-body">
-                              <h4 class="media-heading">Garment Perception and Manipulation</h4>
-                              <p>When robots do laundry.</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="media">
-                          <div class="pull-left">
-                              <span class="fa-stack fa-2x">
-                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                    <i class="fa fa-database fa-stack-1x fa-inverse"></i>
-                              </span>
-                          </div>
-                          <div class="media-body">
-                              <h4 class="media-heading">Modular Robots</h4>
-                              <p>When robots are made of robots.</p>
-                          </div>
-                      </div>
                   </div>
                 </div>
             </div>
             <div class="tab-pane fade" id="service-three">
+
                 <!-- Service List -->
                 <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
                 <div class="row">
                   <div class="col-lg-12">
                       <h4 class="page-header">Projects</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
                   </div>
                   <div class="col-md-4">
-                      <div class="media">
-                          <div class="pull-left">
-                              <span class="fa-stack fa-2x">
-                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                    <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
-                              </span>
-                          </div>
-                          <div class="media-body">
-                              <h4 class="media-heading">Personal Projects</h4>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                          </div>
-                      </div>
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <span class="fa-stack fa-5x">
+                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                  <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </div>
+                        <div class="panel-body">
+                          <h4 class="media-heading">Personal Projects</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                          <a href="projects.html" class="btn btn-primary">View Projects</a>
+                        </div>
+                    </div>
                   </div>
                   <div class="col-md-4">
-                      <div class="media">
-                          <div class="pull-left">
-                              <span class="fa-stack fa-2x">
-                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                    <i class="fa fa-database fa-stack-1x fa-inverse"></i>
-                              </span>
-                          </div>
-                          <div class="media-body">
-                              <h4 class="media-heading">Projects at ASROB</h4>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                          </div>
-                      </div>
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <span class="fa-stack fa-5x">
+                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                  <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </div>
+                        <div class="panel-body">
+                          <h4 class="media-heading">Projects at ASROB</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                          <a href="projects.html" class="btn btn-primary">View Projects</a>
+                        </div>
+                    </div>
                   </div>
                   <div class="col-md-4">
-                      <div class="media">
-                          <div class="pull-left">
-                              <span class="fa-stack fa-2x">
-                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                    <i class="fa fa-database fa-stack-1x fa-inverse"></i>
-                              </span>
-                          </div>
-                          <div class="media-body">
-                              <h4 class="media-heading">Projects at UC3Music</h4>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                          </div>
-                      </div>
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <span class="fa-stack fa-5x">
+                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                  <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </div>
+                        <div class="panel-body">
+                          <h4 class="media-heading">Projects at UC3Music</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                          <a href="projects.html" class="btn btn-primary">View Projects</a>
+                        </div>
+                    </div>
                   </div>
                 </div>
             </div>
@@ -203,49 +204,46 @@ permalink: index.html
               <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
               <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="page-header">Recent Posts</h2>
+                    <h2 class="page-header">Featured Tutorials</h2>
                 </div>
                 <div class="col-md-4">
-                    <div class="media">
-                        <div class="pull-left">
-                            <span class="fa-stack fa-2x">
-                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                  <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">PyQt/PySide</h4>
-                            <p>Creating a PySide GUI application.</p>
-                        </div>
-                    </div>
+                  <div class="panel panel-default text-center">
+                      <div class="panel-heading">
+                        <img class="card-img-top" src="img/tutorials/pysidelogo-thumbnail.png" alt="PySide tutorial featured image">
+                      </div>
+                      <div class="panel-body">
+                        <h4 class="media-heading">PyQt/PySide</h4>
+                        <p>Creating a PySide GUI application.</p>
+                        <a href="https://david-estevez.gitbooks.io/tutorial-pyside-pyqt4/content/" class="btn btn-primary no_icon">View Tutorial</a>
+                      </div>
+                  </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="media">
-                        <div class="pull-left">
-                            <span class="fa-stack fa-2x">
-                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                  <i class="fa fa-database fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">The Git, the Bad and the Ugly</h4>
-                            <p>Git for beginners (Spanish only).</p>
-                        </div>
-                    </div>
+                  <div class="panel panel-default text-center">
+                      <div class="panel-heading">
+                        <img class="card-img-top" src="img/tutorials/gitlogo-thumbnail.png" alt="Git tutorial featured image">
+                      </div>
+                      <div class="panel-body">
+                        <h4 class="media-heading">The Git, the Bad and the Ugly</h4>
+                        <p>Git for beginners (Spanish only).</p>
+                        <a href="https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/es/" class="btn btn-primary no_icon">View Tutorial</a>
+                      </div>
+                  </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="media">
-                        <div class="pull-left">
-                            <span class="fa-stack fa-2x">
-                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                  <i class="fa fa-database fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">All Tutorials</h4>
-                            <p>All my tutorials.</p>
-                        </div>
-                    </div>
+                  <div class="panel panel-default text-center">
+                      <div class="panel-heading">
+                          <span class="fa-stack fa-5x">
+                                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fa fa-map-signs fa-stack-1x fa-inverse"></i>
+                          </span>
+                      </div>
+                      <div class="panel-body">
+                          <h4>All Tutorials</h4>
+                          <p>List of all my tutorials.</p>
+                          <a href="404.html" class="btn btn-primary">View Tutorials</a>
+                      </div>
+                  </div>
                 </div>
               </div>
             </div>
