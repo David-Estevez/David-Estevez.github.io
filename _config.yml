@@ -24,8 +24,8 @@ disqus_shortname:
 google_analytics:
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
 
-#host: 192.168.1.19
-host: localhost
+host: 192.168.1.19
+#host: localhost
 # the preview server used. Leave as is.
 
 port: 4000
@@ -126,4 +126,3 @@ social:
     url: https://www.youtube.com/user/david11def
   - title: linkedin
     url: https://linkedin.com/in/david-estevez-2aaa4595
-

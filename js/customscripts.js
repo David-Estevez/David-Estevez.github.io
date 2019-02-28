@@ -18,7 +18,10 @@ $( document ).ready(function() {
     /**
      * AnchorJS
      */
-    anchors.add('h2,h3,h4,h5');
+    anchors.add('h2:not(.no-anchor)');
+    anchors.add('h3:not(.no-anchor)');
+    anchors.add('h4:not(.no-anchor)');
+    anchors.add('h5:not(.no-anchor)');
 
 });
 

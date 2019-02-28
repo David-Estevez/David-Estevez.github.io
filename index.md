@@ -33,25 +33,25 @@ permalink: index.html
     <div class="col-lg-12">
 
         <ul id="myTab" class="nav nav-tabs nav-justified">
-            <li class="active"><a href="#service-one" data-toggle="tab"><i class="fa fa-edit"></i> Blog</a>
+            <li class="active"><a href="#service-blog" data-toggle="tab"><i class="fa fa-edit"></i> Blog</a>
             </li>
-            <li class=""><a href="#service-two" data-toggle="tab"><i class="fa fa-search"></i> Research</a>
+            <li class=""><a href="#service-research" data-toggle="tab"><i class="fa fa-search"></i> Research</a>
             </li>
-            <li class=""><a href="#service-three" data-toggle="tab"><i class="fa fa-code"></i> Projects</a>
+            <li class=""><a href="#service-projects" data-toggle="tab"><i class="fa fa-code"></i> Projects</a>
             </li>
-            <li class=""><a href="#service-four" data-toggle="tab"><i class="fa fa-map-signs"></i> Tutorials</a>
+            <li class=""><a href="#service-tutorials" data-toggle="tab"><i class="fa fa-map-signs"></i> Tutorials</a>
             </li>
         </ul>
 
         <div id="myTabContent" class="tab-content">
-            <div class="tab-pane fade active in" id="service-one">
-                <h4>Blog</h4>
+            <div class="tab-pane fade active in" id="service-blog">
+                <h4 class="no-anchor">Blog</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
                 <!-- Service List -->
                 <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
                 <div class="row">
                   <div class="col-lg-12">
-                      <h2 class="page-header">Recent Posts</h2>
+                      <h2 class="page-header no-anchor">Recent Posts</h2>
                   </div>
                   {% for post in site.posts limit:2 %}
                   <div class="col-md-4">
@@ -67,7 +67,7 @@ permalink: index.html
                               {% endif %}
                           </div>
                           <div class="panel-body">
-                              <h4>{{ post.title }}</h4>
+                              <h4 class="no-anchor">{{ post.title }}</h4>
                               <p>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 40 }} {% else %} {{ post.content | truncatewords: 40 | strip_html }} {% endif %}</p>
                               <a href="{{ post.url | remove: "/" }}" class="btn btn-primary">Read Post</a>
                           </div>
@@ -83,7 +83,7 @@ permalink: index.html
                               </span>
                           </div>
                           <div class="panel-body">
-                              <h4>Latest Posts</h4>
+                              <h4 class="no-anchor">Latest Posts</h4>
                               <p>Check out the latest posts published on the blog.</p>
                               <a href="news.html" class="btn btn-primary">Check Out!</a>
                           </div>
@@ -91,14 +91,14 @@ permalink: index.html
                   </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="service-two">
-                <h4>Research</h4>
+            <div class="tab-pane fade" id="service-research">
+                <h4 class="no-anchor">Research</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
                 <!-- Service List -->
                 <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
                 <div class="row">
                   <div class="col-lg-12">
-                      <h2 class="page-header">Research Lines</h2>
+                      <h2 class="page-header no-anchor">Research Lines</h2>
                   </div>
                   <div class="col-md-4">
                     <div class="panel panel-default text-center">
@@ -106,9 +106,9 @@ permalink: index.html
                           <img class="card-img-top" src="img/research/garments-thumbnail.png" alt="Garment Perception and Manipulation featured image">
                         </div>
                         <div class="panel-body">
-                          <h4 class="media-heading">Garment Perception and Manipulation</h4>
+                          <h4 class="media-heading no-anchor">Garment Perception and Manipulation</h4>
                           <p>When robots do laundry.</p>
-                          <a href="404.html" class="btn btn-primary">View topic</a>
+                          <a href="research.html" class="btn btn-primary">View topic</a>
                         </div>
                     </div>
                   </div>
@@ -118,12 +118,13 @@ permalink: index.html
                           <img class="card-img-top" src="img/research/modularrobots-thumbnail.png" alt="çModular robots featured image">
                         </div>
                         <div class="panel-body">
-                          <h4 class="media-heading">Modular Robots</h4>
+                          <h4 class="media-heading no-anchor">Modular Robots</h4>
                           <p>When robots are made of robots.</p>
-                          <a href="404.html" class="btn btn-primary">View topic</a>
+                          <a href="research.html" class="btn btn-primary">View topic</a>
                         </div>
                     </div>
                   </div>
+                  {% comment %} (To be enabled in the future)
                   <div class="col-md-4">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
@@ -133,21 +134,22 @@ permalink: index.html
                             </span>
                         </div>
                         <div class="panel-body">
-                            <h4>Publications</h4>
+                            <h4 class="no-anchor">Publications</h4>
                             <p>List of all my academic publications.</p>
                             <a href="404.html" class="btn btn-primary">View publications</a>
                         </div>
                     </div>
                   </div>
+                  {% endcomment %}
                 </div>
             </div>
-            <div class="tab-pane fade" id="service-three">
+            <div class="tab-pane fade" id="service-projects">
 
                 <!-- Service List -->
                 <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
                 <div class="row">
                   <div class="col-lg-12">
-                      <h4 class="page-header">Projects</h4>
+                      <h4 class="no-anchor">Projects</h4>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
                   </div>
                   <div class="col-md-4">
@@ -159,7 +161,7 @@ permalink: index.html
                             </span>
                         </div>
                         <div class="panel-body">
-                          <h4 class="media-heading">Personal Projects</h4>
+                          <h4 class="media-heading no-anchor">Personal Projects</h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
                           <a href="projects.html" class="btn btn-primary">View Projects</a>
                         </div>
@@ -174,7 +176,7 @@ permalink: index.html
                             </span>
                         </div>
                         <div class="panel-body">
-                          <h4 class="media-heading">Projects at ASROB</h4>
+                          <h4 class="media-heading no-anchor">Projects at ASROB</h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
                           <a href="projects.html" class="btn btn-primary">View Projects</a>
                         </div>
@@ -189,7 +191,7 @@ permalink: index.html
                             </span>
                         </div>
                         <div class="panel-body">
-                          <h4 class="media-heading">Projects at UC3Music</h4>
+                          <h4 class="media-heading no-anchor">Projects at UC3Music</h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
                           <a href="projects.html" class="btn btn-primary">View Projects</a>
                         </div>
@@ -197,14 +199,14 @@ permalink: index.html
                   </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="service-four">
-              <h4>Tutorials</h4>
+            <div class="tab-pane fade" id="service-tutorials">
+              <h4 class="no-anchor">Tutorials</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
               <!-- Service List -->
               <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
               <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="page-header">Featured Tutorials</h2>
+                    <h2 class="page-header no-anchor">Featured Tutorials</h2>
                 </div>
                 <div class="col-md-4">
                   <div class="panel panel-default text-center">
@@ -212,7 +214,7 @@ permalink: index.html
                         <img class="card-img-top" src="img/tutorials/pysidelogo-thumbnail.png" alt="PySide tutorial featured image">
                       </div>
                       <div class="panel-body">
-                        <h4 class="media-heading">PyQt/PySide</h4>
+                        <h4 class="media-heading no-anchor">PyQt/PySide</h4>
                         <p>Creating a PySide GUI application.</p>
                         <a href="https://david-estevez.gitbooks.io/tutorial-pyside-pyqt4/content/" class="btn btn-primary no_icon">View Tutorial</a>
                       </div>
@@ -224,12 +226,13 @@ permalink: index.html
                         <img class="card-img-top" src="img/tutorials/gitlogo-thumbnail.png" alt="Git tutorial featured image">
                       </div>
                       <div class="panel-body">
-                        <h4 class="media-heading">The Git, the Bad and the Ugly</h4>
+                        <h4 class="media-heading no-anchor">The Git, the Bad and the Ugly</h4>
                         <p>Git for beginners (Spanish only).</p>
                         <a href="https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/es/" class="btn btn-primary no_icon">View Tutorial</a>
                       </div>
                   </div>
                 </div>
+                {% comment %} (To be enabled in the future)
                 <div class="col-md-4">
                   <div class="panel panel-default text-center">
                       <div class="panel-heading">
@@ -239,12 +242,13 @@ permalink: index.html
                           </span>
                       </div>
                       <div class="panel-body">
-                          <h4>All Tutorials</h4>
+                          <h4 class="no-anchor">All Tutorials</h4>
                           <p>List of all my tutorials.</p>
                           <a href="404.html" class="btn btn-primary">View Tutorials</a>
                       </div>
                   </div>
                 </div>
+                {% endcomment %}
               </div>
             </div>
         </div>
