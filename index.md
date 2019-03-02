@@ -115,7 +115,7 @@ permalink: index.html
                   <div class="col-md-4">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
-                          <img class="card-img-top" src="img/research/modularrobots-thumbnail.png" alt="çModular robots featured image">
+                          <img class="card-img-top" src="img/research/modularrobots-thumbnail.png" alt="Modular robots featured image">
                         </div>
                         <div class="panel-body">
                           <h4 class="media-heading no-anchor">Modular Robots</h4>
@@ -144,13 +144,13 @@ permalink: index.html
                 </div>
             </div>
             <div class="tab-pane fade" id="service-projects">
-
+                <h4 class="no-anchor">Projects</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
                 <!-- Service List -->
                 <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
                 <div class="row">
                   <div class="col-lg-12">
-                      <h4 class="no-anchor">Projects</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                    <h2 class="page-header no-anchor">Categories</h2>
                   </div>
                   <div class="col-md-4">
                     <div class="panel panel-default text-center">
@@ -170,10 +170,7 @@ permalink: index.html
                   <div class="col-md-4">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
-                            <span class="fa-stack fa-5x">
-                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                  <i class="fa fa-code fa-stack-1x fa-inverse"></i>
-                            </span>
+                          <img class="card-img-top img-circle" src="img/projects/asrob.jpg" alt="ASROB featured image">
                         </div>
                         <div class="panel-body">
                           <h4 class="media-heading no-anchor">Projects at ASROB</h4>
@@ -185,10 +182,7 @@ permalink: index.html
                   <div class="col-md-4">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
-                            <span class="fa-stack fa-5x">
-                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                  <i class="fa fa-code fa-stack-1x fa-inverse"></i>
-                            </span>
+                          <img class="card-img-top img-circle" src="img/projects/uc3music.png" alt="UC3Music featured image">
                         </div>
                         <div class="panel-body">
                           <h4 class="media-heading no-anchor">Projects at UC3Music</h4>
