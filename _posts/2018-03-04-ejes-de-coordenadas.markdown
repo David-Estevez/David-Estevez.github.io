@@ -3,6 +3,7 @@ layout: post
 title: Ejes de coordenadas impresos en 3D
 description: Ejes de coordenadas impresos en 3D para enseñar robótica industrial
 modified: 2018-03-04
+permalink: ejes-de-coordenadas.html
 tags: [robótica, docencia, impresión 3D]
 image:
   feature: 2018-03-04/axes_small.jpg

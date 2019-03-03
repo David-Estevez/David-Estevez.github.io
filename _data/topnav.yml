@@ -1,0 +1,38 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: Blog
+      url: /news
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Research
+      folderitems:
+        - title: Garment Perception and Manipulation
+          url: /research.html
+        - title: Modular Robots
+          url: /research.html
+        #- title: Publications
+        #  url: https://talk.jekyllrb.com
+    - title: Projects
+      folderitems:
+        - title: Projects
+          url: /projects.html
+        - title: Personal projects
+          url: /projects.html
+        - title: Projects at ASROB
+          url: /projects.html
+        - title: Projects at UC3Music
+          url: /projects.html
+    - title: Tutorials
+      folderitems:
+        - title: PyQt / Pyside
+          external_url: https://david-estevez.gitbooks.io/tutorial-pyside-pyqt4/content/
+        - title: The Git, the Bad and the Ugly
+          external_url: https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/es/
+        #- title: All tutorials
+        #  url: http://stackoverflow.com/questions/tagged/jekyll

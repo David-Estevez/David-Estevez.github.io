@@ -3,6 +3,7 @@ layout: post
 title: Automatizando la descarga de eBooks de O'Reilly
 description: Usar Python para automatizar la descarga de eBooks de O'Reilly
 modified: 2017-01-12
+permalink: oreilly-free-ebooks
 tags: [programación, python]
 ---
 

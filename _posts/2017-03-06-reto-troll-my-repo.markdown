@@ -3,6 +3,7 @@ layout: post
 title: Reto Troll My Repo
 description: Repo para aprender a colaborar con proyectos Open Source
 modified: 2017-03-06
+permalink: reto-troll-my-repo.html
 tags: [software, tutorial, git]
 ---
 En mi anterior post compartí un [tutorial de Git](https://www.gitbook.com/book/david-estevez/the-git-the-bad-and-the-ugly) que había redactado como guía para los nuevos de las asociaciones [ASROB](http://asrob.uc3m.es) y [UC3Music](https://github.com/UC3Music/), y que publiqué de forma abierta por si le resultaba útil a alguien más.

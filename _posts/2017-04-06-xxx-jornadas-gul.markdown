@@ -3,6 +3,7 @@ layout: post
 title: XXX Jornadas Técnicas del GUL
 description: Charla sobre diseño parámetrico en FreeCAD
 modified: 2017-04-06
+permalink: xxx-jornadas-gul-html
 tags: [software, charla, FreeCAD]
 ---
 

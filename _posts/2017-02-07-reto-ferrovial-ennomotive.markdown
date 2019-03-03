@@ -3,6 +3,7 @@ layout: post
 title: Reto Ferrovial-Ennomotive
 description: Resumen de nuestra participación en el Reto Ferrovial-Ennomotive
 modified: 2017-02-07
+permalink: reto-ferrovial-ennomotive.html
 tags: [robótica, competición]
 image:
   feature: 2017-02-07/header.jpg
@@ -46,4 +47,3 @@ El tercer y último día tuvo lugar la final, casi sin tiempo para más pruebas.
 	{% endif %}
 	{% endfor %}
 </figure>
-

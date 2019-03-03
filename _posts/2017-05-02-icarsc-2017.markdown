@@ -3,13 +3,14 @@ layout: post
 title: Conferencia ICARSC 2017
 description: Conferencia de robótica ICARSC 2017
 modified: 2017-05-02
+permalink: icarsc-2017.html
 tags: [investigación, robótica, conferencia]
-image: 
+image:
   feature: 2017-05-02/header.jpg
 ---
 
 
-La semana pasada asistí a la *International Conference on Autonomous Robot Systems and Competitions* (ICARSC), que tuvo lugar del 26 al 28 de Abril en Coimbra, Portugal. 
+La semana pasada asistí a la *International Conference on Autonomous Robot Systems and Competitions* (ICARSC), que tuvo lugar del 26 al 28 de Abril en Coimbra, Portugal.
 
 Fui junto con mis compañeros de laboratorio a presentar nuestros trabajos, que habían sido aceptados en la conferencia. Concretamente, yo presenté dos de mis trabajos sobre manipulación y percepción de prendas con robots: uno sobre [desdoblado de ropa](https://www.slideshare.net/DavidEstevez11/estevez2017icasrcunfoldingpresentation) y otro sobre [planchado automático mediante robots](https://www.slideshare.net/DavidEstevez11/estevez2017icasrcironingpresentation). Pasé unos días geniales junto a mis compañeros de laboratorio, compartiendo risas y buenos ratos, y también madrugones y caminatas interminables por la ciudad. Coimbra, pese a sus muchas cuestas, es realmente bonita.
 
