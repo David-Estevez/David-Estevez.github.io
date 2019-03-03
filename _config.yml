@@ -103,12 +103,11 @@ defaults:
 
 sidebars:
 - home_sidebar
-- mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
-- other
+- personal-projects
+- projects
+- research
 
-description: "Bla, bla, bla. Just trying to have a decent website"
+description: "Personal website of David Estevez"
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
