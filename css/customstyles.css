@@ -580,10 +580,11 @@ a[data-toggle] {
 
 }
 
+/*
 .summary:before {
     content: "Summary: ";
     font-weight: bold;
-}
+}*/
 
 .about-me {
     font-size:120%;

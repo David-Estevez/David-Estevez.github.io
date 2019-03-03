@@ -46,9 +46,8 @@ permalink: index.html
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="service-blog">
                 <h4 class="no-anchor">Blog</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                <p>A place to share stories, technical posts, or very much anything that might occur to me. Currently only in Spanish, though  <a href="https://github.com/David-Estevez/David-Estevez.github.io/issues/3">I'd like to offer an English version</a> in the future.</p>
                 <!-- Service List -->
-                <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
                 <div class="row">
                   <div class="col-lg-12">
                       <h2 class="page-header no-anchor">Recent Posts</h2>
@@ -93,9 +92,8 @@ permalink: index.html
             </div>
             <div class="tab-pane fade" id="service-research">
                 <h4 class="no-anchor">Research</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                <p>A section devoted to sharing information and resources related with my research in the field of robotics.</p>
                 <!-- Service List -->
-                <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
                 <div class="row">
                   <div class="col-lg-12">
                       <h2 class="page-header no-anchor">Research Lines</h2>
@@ -145,9 +143,8 @@ permalink: index.html
             </div>
             <div class="tab-pane fade" id="service-projects">
                 <h4 class="no-anchor">Projects</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                <p>This section contains my personal hobby projects, including the projects I contribute to in <a href="https://asrob.uc3m.es/">ASROB</a> and <a href="https://music.uc3m.es/">UC3Music</a>.</p>
                 <!-- Service List -->
-                <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
                 <div class="row">
                   <div class="col-lg-12">
                     <h2 class="page-header no-anchor">Categories</h2>
@@ -162,7 +159,7 @@ permalink: index.html
                         </div>
                         <div class="panel-body">
                           <h4 class="media-heading no-anchor">Personal Projects</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                          <p>Projects I make in my spare time for fun.</p>
                           <a href="projects.html" class="btn btn-primary">View Projects</a>
                         </div>
                     </div>
@@ -174,7 +171,7 @@ permalink: index.html
                         </div>
                         <div class="panel-body">
                           <h4 class="media-heading no-anchor">Projects at ASROB</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                          <p>Projects I contribute to in the UC3M Robotics Society (ASROB).</p>
                           <a href="projects.html" class="btn btn-primary">View Projects</a>
                         </div>
                     </div>
@@ -186,7 +183,7 @@ permalink: index.html
                         </div>
                         <div class="panel-body">
                           <h4 class="media-heading no-anchor">Projects at UC3Music</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                          <p>Projects I contribute to in the UC3M Music and Engineering Society (UC3Music).</p>
                           <a href="projects.html" class="btn btn-primary">View Projects</a>
                         </div>
                     </div>
@@ -195,9 +192,8 @@ permalink: index.html
             </div>
             <div class="tab-pane fade" id="service-tutorials">
               <h4 class="no-anchor">Tutorials</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+              <p>This section contains tutorials for several topics that I made for the future me, but could be useful for other people too.</p>
               <!-- Service List -->
-              <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
               <div class="row">
                 <div class="col-lg-12">
                     <h2 class="page-header no-anchor">Featured Tutorials</h2>
