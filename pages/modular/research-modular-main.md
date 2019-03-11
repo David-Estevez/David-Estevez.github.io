@@ -1,9 +1,11 @@
 ---
 title: Modular Robots
 keywords: modular robots
-sidebar: research
+sidebar: modular
+toc: false
 permalink: research-modular-main.html
-folder: research
+folder: modular
+summary: When robots are made of robots
 ---
 
 <img class="img-rounded" src="img/research/modularrobots.png" alt="Modular feature picture">
