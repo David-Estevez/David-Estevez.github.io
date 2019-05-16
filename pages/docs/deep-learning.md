@@ -30,6 +30,7 @@ summary: A collection of helpful resources for working with Deep Learning and Ke
 * [NN SVG](http://alexlenail.me/NN-SVG/AlexNet.html)
 
 ## Tutorials
+* [Practical Deep Learning for Coders, v3 - fast.ai](https://course.fast.ai/index.html)
 * [fast.ai videos](https://www.youtube.com/user/howardjeremyp/videos)
   * [Things Jeremy says to do (fast.ai)](https://forums.fast.ai/t/things-jeremy-says-to-do/36682)
 * [Introduction to Deep Learning - 8. Numerical Stability, Hardware](http://courses.d2l.ai/berkeley-stat-157/units/dropout.html)  
