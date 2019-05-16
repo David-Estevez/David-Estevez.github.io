@@ -17,6 +17,7 @@ summary: A collection of helpful resources for working with Deep Learning and Ke
 * [37 Reasons why your Neural Network is not working – Slav](https://blog.slavv.com/37-reasons-why-your-neural-network-is-not-working-4020854bd607)
 * [3.2. Tuning the hyper-parameters of an estimator — scikit-learn 0.20.2 documentation](https://scikit-learn.org/stable/modules/grid_search.html)
 * [Troubleshooting Convolutional Neural Nets](https://gist.github.com/zeyademam/0f60821a0d36ea44eef496633b4430fc#variable-not-training)
+* [A Recipe for Training Neural Networks](https://karpathy.github.io/2019/04/25/recipe/)
 
 ## Deep Learning Theory
 * [jgvictores/awesome-deep-reinforcement-learning: Curated list for Deep Reinforcement Learning (DRL): software frameworks, models, datasets, gyms, baselines...](https://github.com/jgvictores/awesome-deep-reinforcement-learning#nndnn-visualization-and-explanation)
