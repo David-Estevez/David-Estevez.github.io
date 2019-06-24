@@ -12,6 +12,7 @@ summary: A collection of helpful resources for working with Deep Learning and Ke
 * [Callbacks - Keras Documentation](https://keras.io/callbacks/)
 * [Monitor progress of your Keras based neural network using Tensorboard](http://fizzylogic.nl/2017/05/08/monitor-progress-of-your-keras-based-neural-network-using-tensorboard/)
 * [Keras Tutorial : Fine-tuning pre-trained models - Learn OpenCV](https://www.learnopencv.com/keras-tutorial-fine-tuning-using-pre-trained-models/)
+* [Keras gist for adding checkpoints to Models](https://gist.github.com/ModMaamari/3319f05a8329f04e74809025f8674adf#file-dnnfr_b11-py)
 
 ## Troubleshooting
 * [37 Reasons why your Neural Network is not working – Slav](https://blog.slavv.com/37-reasons-why-your-neural-network-is-not-working-4020854bd607)
