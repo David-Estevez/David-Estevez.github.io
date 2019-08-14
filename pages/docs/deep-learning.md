@@ -7,6 +7,10 @@ folder: docs
 summary: A collection of helpful resources for working with Deep Learning and Keras
 ---
 
+## My resources
+
+* [Keras: resources and code snippets](keras.html)
+
 ## Keras (with Tensoflow)
 * [How to generate data on the fly with Keras](https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly)
 * [Callbacks - Keras Documentation](https://keras.io/callbacks/)
