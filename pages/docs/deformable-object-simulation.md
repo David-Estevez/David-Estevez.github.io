@@ -25,7 +25,11 @@ This is as close as one can get to an interactive simulation with Blender.
 
 Source: [jan van den Hemel - Twitter](https://twitter.com/JanvandenHemel/status/1163154199170945030)
 
+# Spring and mass model simulation
+* [CS 184: Computer Graphics and Imaging Project: Cloth Simulator by Cheng Chen](https://cal-cs184-student.github.io/p4-clothsim-Julius-c/)
+
 # Position-based Dynamics Simulators
 
 * [Position Based Elastic Rod for Jan Bender's PBD library [GitHub]](https://github.com/korzen/PositionBasedDynamics-ElasticRod)
 * [InteractiveComputerGraphics/PositionBasedDynamics [GitHub]](https://github.com/InteractiveComputerGraphics/PositionBasedDynamics) 
+
