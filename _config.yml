@@ -24,8 +24,8 @@ disqus_shortname:
 google_analytics:
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
 
-host: 192.168.1.19
-#host: localhost
+#host: 192.168.1.19
+host: localhost
 # the preview server used. Leave as is.
 
 port: 4000
@@ -103,9 +103,9 @@ defaults:
 
 sidebars:
 - home_sidebar
-- personal-projects
 - projects
 - research
+- tutorials
 
 description: "Personal website of David Estevez"
 # the description is used in the feed.xml file
