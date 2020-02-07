@@ -2,7 +2,7 @@
 folder: the-git-the-bad-and-the-ugly
 permalink: tutorial-the-git-the-bad-and-the-ugly-README.html
 sidebar: tutorials
-title: ' The Git, the Bad and the Ugly'
+title: The Git, the Bad and the Ugly
 toc: false
 ---
 
