@@ -119,3 +119,20 @@ li.sidebarTitle {
 .navbar-inverse .navbar-toggle {
     border-color: #015CAE;
 }
+
+.dropdown-menu li.divider {
+    height: 4px;
+    margin: 0px 0;
+    overflow: hidden;
+    background-color: #e5e5e5
+}
+
+@media (max-width: 767px) {
+    .dropdown-menu li.divider {
+        margin-left: 9px;
+        height: 1px;
+    }
+    .dropdown-menu a {
+        margin-left: 9px;
+    }
+}

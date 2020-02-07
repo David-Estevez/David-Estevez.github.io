@@ -167,7 +167,7 @@ permalink: index.html
                   <div class="col-md-4">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
-                          <img class="card-img-top img-circle" src="img/projects/asrob.jpg" alt="ASROB featured image">
+                          <img class="card-img-top img-circle" src="img/projects/asrob.jpg" alt="ASROB featured image" height="100px">
                         </div>
                         <div class="panel-body">
                           <h4 class="media-heading no-anchor">Projects at ASROB</h4>

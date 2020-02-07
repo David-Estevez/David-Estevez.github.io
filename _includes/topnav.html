@@ -34,16 +34,27 @@
                 <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
                 {% for entry in topnav_dropdowns %}
                 {% for folder in entry.folders %}
+                {% if folder.external_url %}
+                <li><a href="{{folder.external_url}}" target="_blank">{{folder.title}}</a></li>
+                {% elsif folder.url %}
+                <li><a href="{{folder.url | remove: "/"}}">{{folder.title}}</a></li>
+                {% endif %}
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ folder.title }}<b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">{% unless folder.url %}{{folder.title}}{% endunless %}<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         {% for folderitem in folder.folderitems %}
-                        {% if folderitem.external_url %}
-                        <li><a href="{{folderitem.external_url}}" target="_blank">{{folderitem.title}}</a></li>
-                        {% elsif page.url contains folderitem.url %}
-                        <li class="dropdownActive"><a href="{{folderitem.url |  remove: "/"}}">{{folderitem.title}}</a></li>
+                        {% if folderitem.section %}
+                        <li class="divider"></li>
+                        <li class="section-header"><!--<a href="" aria-disabled="true" >{{folderitem.section}}</a>-->{{folderitem.section}}</li>
+                        <li class="divider"></li>
                         {% else %}
+                          {% if folderitem.external_url %}
+                        <li><a href="{{folderitem.external_url}}" target="_blank">{{folderitem.title}}</a></li>
+                          {% elsif page.url contains folderitem.url %}
+                        <li class="dropdownActive"><a href="{{folderitem.url |  remove: "/"}}">{{folderitem.title}}</a></li>
+                          {% else %}
                         <li><a href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li>
+                          {% endif %}
                         {% endif %}
                         {% endfor %}
                     </ul>
@@ -54,8 +65,8 @@
 			{% include feedback.html %}
 		{% endif %}
                 <!--comment out this block if you want to hide search-->
+                <!--
                 <li>
-                    <!--start search-->
                     <div id="search-demo-container">
                         <input type="text" id="search-input" placeholder="{{site.data.strings.search_placeholder_text}}">
                         <ul id="results-container"></ul>
@@ -72,8 +83,8 @@
                             fuzzy: true,
                     })
                     </script>
-                    <!--end search-->
                 </li>
+                <!--end search-->
             </ul>
         </div>
         </div>
