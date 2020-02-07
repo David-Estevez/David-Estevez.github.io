@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col-lg-12">
+        {% if include.previous %}
+        <a href="{{include.previous}}" class="btn btn-primary">Previous</a>
+        {% endif %}
+        {% if include.next %}
+        <a href="{{include.next}}" class="btn btn-primary">Next</a>
+        {% endif %}
+    </div>
+</div>
