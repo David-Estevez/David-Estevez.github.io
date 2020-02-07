@@ -1,0 +1,31 @@
+entries:
+    - title: Research
+      product: Research
+      folders:
+        
+      - title: Modular Robots
+        output: web
+        folderitems:
+        - title: Modular Robots
+          url: research-modular-main.html
+          output: web
+        
+        - title: Bachelor's Thesis
+          url: research-modular-bachelor-thesis.html
+          output: web
+        - title: REPY-2.0
+          url: research-modular-repy-2.0.html
+          output: web
+        - title: REPY-2.1
+          url: research-modular-repy-2.1.html
+          output: web
+        - title: SkymegaSMD
+          url: research-modular-skymegasmd.html
+          output: web
+      - title: Textiles
+        output: web
+        folderitems:
+        - title: Textiles
+          url: research-textiles-main.html
+          output: web
+        

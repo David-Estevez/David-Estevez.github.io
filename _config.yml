@@ -103,9 +103,9 @@ defaults:
 
 sidebars:
 - home_sidebar
+- personal-projects
 - projects
 - research
-- tutorials
 
 description: "Personal website of David Estevez"
 # the description is used in the feed.xml file
@@ -117,11 +117,11 @@ description: "Personal website of David Estevez"
 social:
   - title: github
     url: https://github.com/David-Estevez
-  - title: envelope
-    url : mailto:destevez@ing.uc3m.es
   - title: twitter
     url: https://twitter.com/DEFrobotics
   - title: youtube
     url: https://www.youtube.com/user/david11def
   - title: linkedin
     url: https://linkedin.com/in/david-estevez-2aaa4595
+  - title: envelope
+    url: mailto:destevez@ing.uc3m.es

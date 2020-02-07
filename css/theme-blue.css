@@ -127,6 +127,14 @@ li.sidebarTitle {
     background-color: #e5e5e5
 }
 
+.dropdown-menu li.section-header {
+    padding: 5px;
+}
+
+.page-header.recent-header {
+    margin: 0px 0 20px;
+}
+
 @media (max-width: 767px) {
     .dropdown-menu li.divider {
         margin-left: 9px;

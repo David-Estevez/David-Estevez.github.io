@@ -1,0 +1,101 @@
+entries:
+    - title: Tutorials
+      product: Tutorials
+      folders:
+        
+          - title: Creating a PySide GUI application
+            output: web
+            folderitems:
+            - title: 1 - Introduction
+              url: /tutorial-tutorial-pyside-pyqt4-README.html
+              output: web
+            - title: 2 - Design the UI with QtCreator
+              url: /tutorial-tutorial-pyside-pyqt4-01_design.html
+              output: web
+            - title: 3 - Minimal code to run the app
+              url: /tutorial-tutorial-pyside-pyqt4-02_basic.html
+              output: web
+            - title: 4 - Refactoring minimum code to use a class
+              url: /tutorial-tutorial-pyside-pyqt4-03_class.html
+              output: web
+            - title: 5 - Configuring widgets
+              url: /tutorial-tutorial-pyside-pyqt4-04_configuration.html
+              output: web
+            - title: 6 - Attaching callbacks to events
+              url: /tutorial-tutorial-pyside-pyqt4-05_callbacks.html
+              output: web
+            - title: 7 - Adding a file selection dialog
+              url: /tutorial-tutorial-pyside-pyqt4-06_dialog.html
+              output: web
+            - title: 8 - Connecting the GUI to the backend
+              url: /tutorial-tutorial-pyside-pyqt4-07_backend.html
+              output: web
+            - title: 9 - Appendix Useful Development Info
+              url: /tutorial-tutorial-pyside-pyqt4-appendix_useful_development_info.html
+              output: web
+          - title: The Git, the Bad and the Ugly
+            output: web
+            folderitems:
+            - title: 1 - Introducción
+              url: /tutorial-the-git-the-bad-and-the-ugly-README.html
+              output: web
+            - title: 2 - Control de versiones
+              url: /tutorial-the-git-the-bad-and-the-ugly-control-de-versiones.html
+              output: web
+            - title: 3 - GitHub
+              url: /tutorial-the-git-the-bad-and-the-ugly-github.html
+              output: web
+            - title: 3.1 - ¿Qué es GitHub?
+              url: /tutorial-the-git-the-bad-and-the-ugly-que-es-github.html
+              output: web
+            - title: 3.2 - Elementos principales en GitHub
+              url: /tutorial-the-git-the-bad-and-the-ugly-elementos-principales-en-github.html
+              output: web
+            - title: 3.3 - Crear una cuenta de GitHub
+              url: /tutorial-the-git-the-bad-and-the-ugly-crear-una-cuenta-de-github.html
+              output: web
+            - title: 3.4 - Crear un repositorio en GitHub
+              url: /tutorial-the-git-the-bad-and-the-ugly-crear-un-repositorio-en-github.html
+              output: web
+            - title: 3.5 - Tutoriales de GitHub
+              url: /tutorial-the-git-the-bad-and-the-ugly-tutoriales-de-github.html
+              output: web
+            - title: 4 - Usando Git
+              url: /tutorial-the-git-the-bad-and-the-ugly-usando-git.html
+              output: web
+            - title: 4.1 - Instalar Git
+              url: /tutorial-the-git-the-bad-and-the-ugly-instalar-git.html
+              output: web
+            - title: 4.2 - Creando un repo (local)
+              url: /tutorial-the-git-the-bad-and-the-ugly-creando-un-repo-local.html
+              output: web
+            - title: 4.3 - Crear un repositorio remoto
+              url: /tutorial-the-git-the-bad-and-the-ugly-crear-un-repositorio-remoto.html
+              output: web
+            - title: 4.4 - Subir y bajar cambios a un repositorio remoto
+              url: /tutorial-the-git-the-bad-and-the-ugly-subir-y-bajar-cambios-a-un-repositorio-remoto.html
+              output: web
+            - title: 4.5 - Trabajando con ramas
+              url: /tutorial-the-git-the-bad-and-the-ugly-trabajando-con-ramas.html
+              output: web
+            - title: 4.6 - Usando etiquetas
+              url: /tutorial-the-git-the-bad-and-the-ugly-usando-etiquetas.html
+              output: web
+            - title: 5 - ¿Y si uso Windows?
+              url: /tutorial-the-git-the-bad-and-the-ugly-y-si-uso-windows.html
+              output: web
+            - title: 6 - Colaborando con proyectos en GitHub
+              url: /tutorial-the-git-the-bad-and-the-ugly-colaborando-con-proyectos-en-github.html
+              output: web
+            - title: 6.1 - Forkeando un repositorio
+              url: /tutorial-the-git-the-bad-and-the-ugly-forkeando-un-repositorio.html
+              output: web
+            - title: 6.2 - Creando un pull request
+              url: /tutorial-the-git-the-bad-and-the-ugly-creando-un-pull-request.html
+              output: web
+            - title: 7 - Buenas prácticas al trabajar con Git
+              url: /tutorial-the-git-the-bad-and-the-ugly-buenas-practicas-al-trabajar-con-git.html
+              output: web
+            - title: 8 - Recursos para aprender más
+              url: /tutorial-the-git-the-bad-and-the-ugly-recursos-para-aprender-mas.html
+              output: web
