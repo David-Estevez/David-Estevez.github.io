@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Locomotion Gaits Through Hormone-based Controller in Modular Robots: a modular robot learns locomotion gaits for different configurations, and then selects the most appropiate gait according to the current configuration of the robot.">
+  <meta name="author" content="David Estevez">
+  <title>destevez.me - Bachelor’s Thesis</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Cinzel&family=Mate+SC&display=swap" rel="stylesheet"> 
+
+  <link href="/sidebars.css" rel="stylesheet">
+  <link href="/theme.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container row mx-auto col-lg-12">
+    <nav class="col-lg-12 mx-auto py-3 pt-md-5 border-bottom">
+      <div class="container d-flex flex-wrap">
+        <a href="/" class="d-flex text-dark text-decoration-none">
+          <h1>David Estévez</h1>
+        </a>
+      </div>
+    </nav>
+
+    <div class="col-lg-12 mx-auto p-3">
+      <header class="d-flex mb-4">
+        <ul class="nav col-lg-3 ps-5 mb-2 mb-md-0 ms-auto"> <!-- ps-5 only for 3 items -->
+          <li><a href="/about.html" class="nav-link px-2 link-dark">About</a></li>
+          <li><a href="/" class="nav-link px-2 link-dark">Works</a></li>
+          <li><a href="/research.html" class="nav-link px-2 link-dark">Research</a></li>
+          <!--<li><a href="#" class="nav-link px-2 link-dark">Other</a></li>-->
+        </ul>
+      </header>
+    </div>
+
+    <div class="row">
+      <div class="p-3" style="width: 200px;">
+        <ul class="list-unstyled ps-0">
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+              Modular Robots
+            </button>
+            <div class="collapse show" id="home-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="/projects/modular-robots.html" class="link-dark rounded">Overview</a></li>
+                <li><a href="/projects/hormodular/bachelors-thesis.html" class="link-dark rounded">Bachelor’s Thesis</a></li>
+                <li><a href="/projects/hormodular/repy-2.0.html" class="link-dark rounded">REPY-2.0</a></li>
+                <li><a href="/projects/hormodular/repy-2.1.html" class="link-dark rounded">REPY-2.1</a></li>
+                <li><a href="/projects/hormodular/skymega-smd.html" class="link-dark rounded">SkymegaSMD</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+    <div class="col-md-9" id="tg-sb-content">
+      <div class="post-header">
+        <h1 class="post-title-main">Bachelor's Thesis</h1>
+      </div>
+
+      <div class="post-content">
+
+        <div class="text-justify">
+          <p><img src="/img/projects/hormodular/conf-11-2-3.png" alt="Bachelor's Thesis feature picture"></p>
+
+          <p>The objective of my Bachelor’s Thesis, titled “Locomotion Gaits Through Hormone-based Controller in Modular Robots”, was to develop a modular robot able to learn locomotion gaits for different configurations, and then to select the most appropiate gait according to the current configuration of the robot. This system is distributed, so that each module has its own controller (the same for all modules), and all of them communicate and collaborate in order to detect the current modular robot configuration and select the correct gait.</p>
+
+          <p align="center">
+          <iframe src="https://www.youtube.com/embed/a9mfkdL66Tc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe></p>
+
+          <h2 class="doc-subtitle">Abstract</h2>
+          <p>Modular robots are robots composed of multiple units, called ‘modules’. Each module is an independent robot, with its own control electronics, actuators, sensors, communications and power. These modules can change their position and configuration in order to adapt to the requirements of the situation, making modular robot suitable for tasks that involve unknown or unstructured terrains, in which a robot cannot be designed specifically for them. Some examples of those applications are space exploration, battlefield reconnaissance, finding victims among the debris in natural catastrophes and other similar tasks involving complicated terrains, which require a high versability.</p>
+
+          <p>But this versability comes with several drawbacks. As modular robots are composed of several independent robots, the nature of their controller is distributed, which difficults their design and programming, requiring additionally a robust communication protocol to share information among modules. The high number of modules also results in a robot with a with number of degrees of freedom, for which achieving the coordination required for locomotion becomes increasingly difficult. Finally, as the modules are fully independent robots, the cost of researching modular robotics is usually very high, since the price of building a single robot has to be multiplied by the high number of modules.</p>
+
+          <p>This thesis addresses those three mentioned problems: obtaining optimal locomotion gaits from a biologically inspired approach, using sinusoidal oscillators whose parameters are found through evolutionary optimization algorithms; developing a homogenous, distributed controller based on digital hormones that can recognize the current robot configuration and select the proper gait; and the development of a low-cost modular robotic platform to reseach locomotion gaits for different configurations.</p>
+
+          <h2 class="doc-subtitle">Software: Hormodular</h2>
+          <p>The software implemented for this thesis was designed to be modular enough so that multiple types of modular robot and modules could be used for evolution and evaluation of gaits.</p>
+
+          <p>The main class diagram is the following:</p>
+          
+          <p><img class="img-fluid" src="/img/projects/hormodular/class_diagram_main.png" alt="main class diagram picture"></p>
+
+          <p>Chapter 3 of the thesis deals with the software design as well as the meaning and explanation of the details of the different classes used.</p>
+
+          <p>All the software can be found in the github repository <a href="https://github.com/David-Estevez/hormodular">Hormodular</a>, and the instructions for compiling and running this software are included at the end of the aforementioned chapter.</p>
+
+          <h2 class="doc-subtitle">Hardware</h2>
+          
+          <p>The hardware used to build the different modular robots was based on the work of Juan Gonzalez-Gomez (Obijuan), specifically the Skymega board for controlling the hobby servos and the REPY-1 modules to compose the modular robot body.</p>
+
+          <h2 class="doc-subtitle">Electronics</h2>
+          <p>The <a href="/projects/hormodular/skymega-smd.html">SkymegaSMD</a> board is a improved version of the <a href="http://www.iearobotics.com/wiki/index.php?title=SkyMega">SkyMega board</a>, designed by <a href="https://twitter.com/Obijuan_cube">Juan Gonzalez-Gomez</a>.</p>
+
+          <p><img class="img-fluid" src="/img/projects/hormodular/01-skymegasmd.jpg" alt="skymegasmd board picture"></p>
+
+          <p>The <a href="/projects/hormodular/skymega-smd.html">SkymegaSMD</a> board introduces the following improvements:</p>
+          <ul>
+            <li>The board is populated with surface-mount compoments (SMD) instead of through-hole components (THD). Using SMD components reduces the amount of PCB surface required by each component. This has allowed us to design a cleaner component layout, add extra components and route the board on the top layer, leaving the bottom layer entirely as a ground plane, reducing electrical noise and interferences.</li>
+            <li>A linear, Low-Dropout (LDO) regulator was added to the circuit in order to have a stable 5V supply to the microcontroller. A stable supply is required, for example, if using the analog inputs to measure a voltage. In this case, if the supply is not constant, the measured values will not have a common reference and will vary even if the voltage measured is the same.</li>
+            <li>The supply for the hobby servos has been split into two different power connectors. One of them supplies the LDO regulator that powers the microcontroller and 4 of the 8 servos that the board allows to use, whereas the other connector supplies the remaining 4 servos. The reason the supply has been split is because the hobby servos consume a high amount of current, and the inductive component generated by the DC motor introduces a large amount of noise in the power lines, that even resets the microcontroller when the 8 servos are connected to a single supply in the original Skymega board. To reduce the effect of the motors on the power supply of the microcontroller,  a capacitor was added next to each servo connector, and the power for the servos is supplied directly from the connector, not passing through the LDO regulator, so the regulated line is as clean as possible.</li>
+            <li>The expansion port has been split into several smaller headers, to reduce the space occupied by the connector. A extra header has been added on the botton of the board for the connection with a optional Bluetooth serial transceiver.</li>
+            <li>Two LEDs for power indication on both supplies and two LEDs for serial port transmission signalling were added.</li>
+          </ul>
+
+          <p>The boards were designed with KiCad and sent to be manufactured in SeeedStudio, a chinese manufacturer for very small batches of PCB prototypes. When they arrived, they were assembled by hand, and tested.</p>
+
+          <h2 class="doc-subtitle">Module: REPY-2.1</h2>
+          <p>This module, based on the <a href="http://www.iearobotics.com/wiki/index.php?title=M%C3%B3dulos_REPY-1">REPY-1 module</a>, improves the original capabilities of the REPY-1 module, and adds the posibility of forming 2D modular robots, with the new connectors on both modular sides.</p>
+
+          <p>Apart from the side holes, the REPY-2.1 module is very similar to the REPY-2.0 module, and information for both versions of the module can be found here:</p>
+          <ul>
+            <li><a href="/projects/hormodular/repy-2.1.html">REPY-2.1</a></li>
+            <li><a href="/projects/hormodular/repy-2.0.html">REPY-2.0</a></li>
+          </ul>
+
+          <h2 class="doc-subtitle">Download Thesis (and sources)</h2>
+          <ul>
+            <li>The thesis and the LaTeX sources to compile it are available in the <a href="https://github.com/David-Estevez/hormodular">Hormodular repository</a>.</li>
+            <li>Direct link for the thesis PDF <a href="https://github.com/David-Estevez/hormodular/raw/master/thesis/Bachelor_thesis_final_def.pdf">here</a>.</li>
+            <li>Direct link for the thesis defense slides <a href="https://github.com/David-Estevez/hormodular/raw/master/thesis/Bachelors_Thesis_presentation.pdf">here</a>.</li>
+          </ul>
+
+          <h2 class="doc-subtitle">Credits</h2>
+          <ul>
+            <li>Author: David Estévez</li>
+            <li>Idea and technical support: <a href="http://www.iearobotics.com/wiki/index.php?title=Juan_Gonzalez:Main">Juan González Gómez (Obijuan)</a></li>
+            <li>Thesis advisor: Avinash Ranganath</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container col-lg-8 ms-auto pt-5 mt-xxl-5">
+      <footer class="mt-5 py-2 text-muted border-top text-end">
+        David Estevez &copy; 2021
+      </footer>
+    </div>
+  
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="/sidebars.js"></script>
+
+</body></html>
